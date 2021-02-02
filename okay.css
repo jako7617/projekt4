@@ -4,7 +4,8 @@ h1 {
 }
 
 h2 {
-  background-color: black;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 p {
