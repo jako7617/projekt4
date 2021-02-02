@@ -1,5 +1,6 @@
 h1 {
-  background-color: black;
+  font-size: 35px;
+  font-weight: 900;
 }
 
 h2 {
@@ -7,9 +8,9 @@ h2 {
 }
 
 p {
-  background-color: grey;
+  color: grey;
 }
 
 img {
-  background-color: green;
+  border: orange dotted;
 }
