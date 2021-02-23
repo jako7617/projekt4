@@ -109,14 +109,21 @@ header {
 }
 .navItemHam {
   grid-column: 1/2;
-  text-align: center;
+  margin-top: 3px;
   align-self: center;
   justify-self: center;
 }
-.hamIcon,
-.searchIcon,
+.hamIcon {
+  width: 30px;
+}
+.filterIcon,
+.searchIcon {
+  width: 22px;
+}
 .filterIcon {
-  width: 35px;
+  margin-bottom: 2px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .navItemSearch {
   grid-column: 2/3;
