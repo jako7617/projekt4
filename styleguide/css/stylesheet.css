@@ -68,6 +68,7 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #ffff;
 }
+
 .sektion1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -90,3 +91,5 @@ header nav ul li a:hover {
 .quote {
   font-style: italic;
 }
+
+/*FARVER*/
