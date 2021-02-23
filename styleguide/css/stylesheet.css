@@ -79,8 +79,8 @@ header nav ul li a:hover {
   margin-top: 10%;
   text-align: left;
   align-self: center;
-  margin-left: 85px;
-  margin-right: 85px;
+  /*margin-left: 85px;
+  margin-right: 85px;*/
 }
 
 .logo {
@@ -99,4 +99,6 @@ hr {
     margin-top: 5%;
     margin-bottom: 2%;
     border-color: #e3bbab;
+    border: 7px solid #e3bbab;
+    width: 210px;
 }
