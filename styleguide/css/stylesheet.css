@@ -107,3 +107,17 @@ hr {
 h1 {
     margin-left: 115px;
 }
+
+.sektion2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "farve1 farve2 farve3 farve4";
+  grid-gap: 3%;
+  padding: 0% 2%;
+  margin-top: 10%;
+  text-align: center;
+  align-self: center;
+  margin-left: 85px;
+  margin-right: 85px;
+}
