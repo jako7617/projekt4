@@ -46,7 +46,7 @@ html {
 }
 .headerLogin {
   font-size: 32px;
-  color: white;
+  color: #f1f1e2;
 }
 .gridLoginItem2 {
   grid-column: 1 / 2;
@@ -93,5 +93,5 @@ html {
   vertical-align: middle;
 }
 .btnGuest {
-  color: white;
+  color: #f1f1e2;
 }
