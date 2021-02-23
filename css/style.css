@@ -22,7 +22,7 @@ html {
   width: 100%;
   font-family: "Montserrat", sans-serif;
 }
-
+/*Log ind front siden/landing page */
 #loginFront {
   width: 100%;
   height: 100%;
@@ -96,6 +96,8 @@ html {
   color: #f1f1e2;
   font-weight: 500;
 }
+
+/* Forsiden/hjem i appen */
 header {
   background-color: #1f2d46;
   height: 8vh;
@@ -129,4 +131,11 @@ header {
   grid-column: 2/3;
   align-self: center;
   justify-self: end;
+}
+.headerHome {
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+}
+.timeHome {
+  margin: 0 0 0 10px;
 }
