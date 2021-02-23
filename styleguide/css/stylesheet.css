@@ -12,18 +12,10 @@ html {
     padding-top: 0;
     width: 100%;
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
   }
 
-* {
-  text-decoration: none;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 /* HEADER + NAV */
-
 header {
   background-color: #1F2D46;
   width: 100%;
