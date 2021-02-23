@@ -96,3 +96,30 @@ html {
   color: #f1f1e2;
   font-weight: 500;
 }
+header {
+  background-color: #1f2d46;
+  height: 8vh;
+}
+
+.navContainer {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+}
+.navItemHam {
+  grid-column: 1/2;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+.hamIcon,
+.searchIcon,
+.filterIcon {
+  width: 35px;
+}
+.navItemSearch {
+  grid-column: 2/3;
+  align-self: center;
+  justify-self: end;
+}
