@@ -54,27 +54,41 @@ html {
   text-align: center;
   align-self: center;
 }
-.btnLoginEmail {
-  display: block;
-  width: 250px;
-  height: 50px;
-  border-radius: 10px;
-  font-size: 16px;
-  margin: 0 auto;
-}
+.btnLoginEmail,
 .btnLoginNr {
   display: block;
+  background-color: #e3bbab;
+  font-weight: bold;
+  border: none;
   width: 250px;
   height: 50px;
-  border-radius: 10px;
+  border-radius: 15px;
   font-size: 16px;
   margin: 10px auto;
+  font-family: "Montserrat", sans-serif;
+  color: #1f2d46;
 }
+
 .btnCreate {
   display: block;
+  color: #1f2d46;
+  border: none;
+  background-color: #e3bbab;
   width: 130px;
   height: 50px;
-  border-radius: 10px;
+  border-radius: 15px;
   font-size: 16px;
   margin: 10px auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.emailIcon {
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.phoneIcon {
+  width: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
