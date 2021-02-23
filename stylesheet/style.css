@@ -31,16 +31,20 @@ body {
   height: 100%;
 }
 
-.headerLogin {
-  font-size: 24px;
-  text-align: center;
-
-  position: absolute;
-}
-
 .loginHero {
   width: 100%;
   height: 100vh;
   object-fit: cover;
   position: absolute;
+}
+
+.headerLogin {
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  grid-row: 1 / 2;
+}
+.loginEmail {
+  position: absolute;
+  grid-row: 2 / 3;
 }
