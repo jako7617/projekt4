@@ -34,8 +34,6 @@ header .header-brand {
   text-align: center;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  justify-self: flex-end;
-  align-self: center;
 }
 
 header .header-brand:hover {
