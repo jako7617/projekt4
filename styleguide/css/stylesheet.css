@@ -204,9 +204,10 @@ h3 {
 /*IKONER*/
 
 table {
-  font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
 }
 
 td,
