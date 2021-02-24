@@ -119,8 +119,7 @@ h3 {
   margin-top: 2%;
   grid-gap: 0%;
   grid-column-gap: 3%;
-  text-align: center;
-  align-self: center;
+  text-align: left;
   margin-left: 110px;
   margin-right: 85px;
 }
@@ -142,6 +141,7 @@ h3 {
   transition: 0.3s;
   height: fit-content;
   background-color: #ffff;
+  padding: 2%;
 }
 
 .farve2 {
@@ -160,6 +160,7 @@ h3 {
   transition: 0.3s;
   height: 250px;
   background-color: #ffff;
+  padding: 2%;
 }
 
 .farve3 {
@@ -178,6 +179,7 @@ h3 {
   transition: 0.3s;
   height: 250px;
   background-color: #ffff;
+  padding: 2%;
 }
 
 .farve4 {
@@ -196,6 +198,7 @@ h3 {
   transition: 0.3s;
   height: 250px;
   background-color: #ffff;
+  padding: 2%;
 }
 
 /*IKONER*/
