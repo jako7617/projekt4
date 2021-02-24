@@ -119,8 +119,7 @@ h3 {
   margin-top: 2%;
   grid-gap: 0%;
   grid-column-gap: 3%;
-  text-align: center;
-  align-self: center;
+  text-align: left;
   margin-left: 110px;
   margin-right: 85px;
 }
@@ -132,6 +131,7 @@ h3 {
   background-color: #1f2d46;
   height: auto;
   height: 25%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 .infobox1 {
@@ -140,8 +140,9 @@ h3 {
   grid-area: "infobox1";
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
-  height: fit-content;
+  height: 250px;
   background-color: #ffff;
+  padding: 2%;
 }
 
 .farve2 {
@@ -150,6 +151,7 @@ h3 {
   grid-area: "farve2";
   background-color: #e3bbab;
   height: 25%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 .infobox2 {
@@ -160,6 +162,7 @@ h3 {
   transition: 0.3s;
   height: 250px;
   background-color: #ffff;
+  padding: 2%;
 }
 
 .farve3 {
@@ -168,6 +171,7 @@ h3 {
   grid-area: "farve3";
   background-color: #f1f1e2;
   height: 25%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 .infobox3 {
@@ -178,6 +182,7 @@ h3 {
   transition: 0.3s;
   height: 250px;
   background-color: #ffff;
+  padding: 2%;
 }
 
 .farve4 {
@@ -186,6 +191,7 @@ h3 {
   grid-area: "farve4";
   background-color: #ffffff;
   height: 25%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 .infobox4 {
@@ -196,6 +202,12 @@ h3 {
   transition: 0.3s;
   height: 250px;
   background-color: #ffff;
+  padding: 2%;
+}
+
+.hexcolor {
+font-weight: 600;
+line-height: 2.5;
 }
 
 /*IKONER*/
@@ -203,6 +215,8 @@ h3 {
 table {
   border-collapse: collapse;
   width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
 }
 
 td,
