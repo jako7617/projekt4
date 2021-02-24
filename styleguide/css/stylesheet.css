@@ -120,3 +120,24 @@ h3 {
   text-align: center;
   align-self: center;
 }
+
+.farve1 {
+  border-color: black;
+  border-style: solid;
+  background-color: #1F2D46;
+}
+.farve2 {
+  border-color: black;
+  border-style: solid;
+  background-color: #e3bbab;
+}
+.farve3 {
+  border-color: black;
+  border-style: solid;
+  background-color: #F1F1E2;
+}
+.farve4 {
+  border-color: black;
+  border-style: solid;
+  background-color: #FFFFFF;
+}
