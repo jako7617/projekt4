@@ -155,3 +155,22 @@ h3 {
   border-style: solid;
   background-color: #FFFFFF;
 }
+
+
+/*IKONER*/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+.menu {
+  background-color: #e3bbab;
+}
