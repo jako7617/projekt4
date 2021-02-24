@@ -158,12 +158,20 @@ header {
   grid-row: 1 / 2;
 }
 .favoriteBox {
-  background-color: blue;
+  background-color: #e3bbab;
   border-radius: 25px;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   width: 90%;
-  height: 80%;
+  height: 95%;
   align-self: center;
   justify-self: center;
+}
+
+.favoriteBox img {
+  width: 100%;
+  border-radius: 25px;
+}
+.favoriteBox h4 {
+  text-align: center;
 }
