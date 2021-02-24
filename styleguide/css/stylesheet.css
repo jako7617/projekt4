@@ -113,10 +113,12 @@ h3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "farve1 farve2 farve3 farve4";
-  grid-gap: 3%;
-  padding: 0%;
-  margin-top: 10%;
+  grid-template-areas: 
+  "farve1 farve2 farve3 farve4"
+  "infobox1 infobox2 infobox3 infobox4";
+  margin-top: 2%;
+  grid-gap: 0%;
+  grid-column-gap: 3%;
   text-align: center;
   align-self: center;
   margin-left: 110px;
@@ -124,34 +126,76 @@ h3 {
 }
 
 .farve1 {
-  height: 50px;
-  border-color: black;
-  border-style: solid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  grid-area: "farve1";
   background-color: #1F2D46;
+  height: auto;
+  width: 100%;
+
 }
 
 .infobox1{
   grid-column: 1/2;
   grid-row: 2/3;
-  border: black solid;
+  grid-area: "infobox1";
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  height: fit-content;
   background-color: #ffff;
-  height: auto;
-  width: 100%;
-  object-fit: cover;
 }
 
 .farve2 {
-  border-color: black;
-  border-style: solid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  grid-area: "farve2";
   background-color: #e3bbab;
+  height: 25%;
 }
+
+.infobox2{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  grid-area: "infobox2";
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  height: 250px;
+  background-color: #ffff;
+}
+
 .farve3 {
-  border-color: black;
-  border-style: solid;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  grid-area: "farve3";
   background-color: #F1F1E2;
+  height: 25%;
 }
+
+.infobox3{
+  grid-column: 3/4;
+  grid-row: 2/3;
+  grid-area: "infobox3";
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  height: 250px;
+  background-color: #ffff;
+}
+
+
 .farve4 {
-  border-color: black;
-  border-style: solid;
+  grid-column: 4/5;
+  grid-row: 1/2;
+  grid-area: "farve4";
   background-color: #FFFFFF;
+  height: 25%;
+}
+
+.infobox4{
+  grid-column: 4/5;
+  grid-row: 2/3;
+  grid-area: "infobox4";
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  height: 250px;
+  background-color: #ffff;
 }
