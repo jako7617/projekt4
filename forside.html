@@ -10,7 +10,7 @@
   <body>
     <header>
       <div class="navContainer">
-        <div class="navItemHam">
+        <div class="navItemHam" onclick="openNav()">
           <img
             class="hamIcon"
             src="assets/icons/menu.png"
@@ -30,6 +30,20 @@
         </div>
       </div>
     </header>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <div class="overlay-content">
+        <a href="forside.html">Hjem</a>
+        <a href="minetider.html">Mine tider</a>
+        <a href="profil.html">Profil</a>
+        <a href="#">Hjælp</a>
+      </div>
+    </div>
+
     <section>
       <h1 class="headerHome">Velkommen tilbage, <span>kære kunde!</span></h1>
       <p class="timeHome">
