@@ -250,7 +250,7 @@ th {
 .sektion3{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
   margin-left: 115px;
   margin-right: 90px;
   margin-top: 30px;
@@ -262,6 +262,7 @@ th {
   grid-row: 1/2;
   background-color:  #e3bbab;
   height: auto;
+  padding-top: 4.5%;
 }
 
 .typo1 {
@@ -289,8 +290,38 @@ th {
   grid-row: 3/4;
 }
 
+.tekst12 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.tekst22 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.tekst32 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
 .typo3 {
   grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+.tekst13 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.tekst23 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.tekst33 {
+  grid-column: 3/4;
   grid-row: 4/5;
 }
 
@@ -299,11 +330,57 @@ th {
   grid-row: 5/6;
 }
 
+.tekst14 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.tekst24 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+.tekst34 {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
 .typo5 {
   grid-column: 1/4;
-  grid-row: 7/8;
+  grid-row: 6/7;
+}
+
+.tekst15 {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+
+.tekst25 {
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+
+.tekst35 {
+  grid-column: 3/4;
+  grid-row: 6/7;
 }
 
 .typo6 {
   grid-column: 1/4;
-  grid-row: 9/10;
+  grid-row: 7/8;
+}
+
+.tekst16 {
+  grid-column: 1/2;
+  grid-row: 7/8;
+}
+
+.tekst26 {
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+
+.tekst36 {
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
