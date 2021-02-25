@@ -216,6 +216,7 @@ table {
   width: 50%;
   margin-left: 25%;
   margin-top: 2%;
+  margin-bottom: 7%;
 }
 
 td,
@@ -231,7 +232,78 @@ th {
 
 .kodeboks {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding-top: 10%;
+  padding-top: 20%;
   margin-left: 25%;
   width: 50%;
+  height: 100%;
 }
+
+.pink {
+  padding-top: 4.5%;
+  margin-left: 25%;
+  width: 50%;
+  background-color: #e3bbab;
+}
+
+/*TYPOGRAFI*/
+
+.sektion3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  margin-left: 115px;
+  margin-right: 90px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.farven {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color:  #e3bbab;
+  height: auto;
+}
+
+.typo1 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+.tekst1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.tekst2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.tekst3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.typo2 {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.typo3 {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+.typo4 {
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+.typo5 {
+  grid-column: 1/4;
+  grid-row: 7/8;
+}
+
+.typo6 {
+  grid-column: 1/4;
+  grid-row: 9/10;
