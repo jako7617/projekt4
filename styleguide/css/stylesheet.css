@@ -448,7 +448,9 @@ th {
   grid-column: 2/3;
   grid-row: 1/2;
   width: 80%;
+  height: 110%;
   margin-left: 10%;
+  font-family: "MingLiU_HKSCS";
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
@@ -474,6 +476,12 @@ th {
   margin-left: -9%;
 }
 
+.wrapper-box {
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
 /*KNAPPER*/
 .sektion5 {
   display: grid;
@@ -488,5 +496,3 @@ th {
 .titel {
   grid-column: 1/2;
   grid-row: 1/2;
-}
-
