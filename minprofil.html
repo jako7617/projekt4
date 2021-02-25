@@ -48,18 +48,26 @@
     </section>
 
     <div class="headerProfileImg">
-      <img class="myProfilImg" src="assets/images/Morten.jpeg" alt="myProfile">
+      <img class="myProfileImg" src="assets/images/Morten.jpeg" alt="myProfile">
     </div>
 
-   <form class="" action="index.html" method="post">
-     <label for="Name">Name</label>
-     <input type="text" name="" value="Morten Andersen">
-     <label for="Adresse">Adresse (valgfrit)</label>
-     <input type="text" name="" value="Skiberen 234, 1th, Odense C">
-     <label for="E-mail">E-mail</label>
-     <input type="text" name="" value="mortenandersen@hotmail.com">
-     <label for="">Mobil nr.</label>
-     <input type="" name="" value="+45 12 34 56 78">
+   <form class="form" action="index.html" method="post">
+     <div class="">
+       <label for="name">Name</label>
+       <input type="text" name="name" id="name" value="Morten Andersen" required>
+     </div>
+     <div class="">
+       <label for="adresse">Adresse (valgfrit)</label>
+       <input type="text" name="adresse" id="adresse" value="Skiberen 234, 1th, Odense C" required>
+     </div>
+     <div class="">
+       <label for="e-mail">E-mail</label>
+       <input type="text" name="e-mail" id="e-mail" value="mortenandersen@hotmail.com" required>
+     </div>
+     <div class="">
+       <label for="mobil nr.">Mobil nr.</label>
+       <input type="" name="mobil nr." id="mobil nr." value="+45 12 34 56 78" required>
+     </div>
    </form>
 
    <label class="switch">
