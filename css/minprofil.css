@@ -104,7 +104,7 @@ header {
 }
 
 .headerProfile {
-  color: #1F2D46;
+  color: #1f2d46;
   margin: 5% 0 5% 5%;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -122,7 +122,20 @@ header {
   margin: 0 0 5% 0;
 }
 
-.idk {
-  align-self: center;
-  justify-self: center;
+.formProfile section div {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.formProfile section div label {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+.formProfile section div input {
+  width: 50%;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.2);
+  padding: 7px;
 }
