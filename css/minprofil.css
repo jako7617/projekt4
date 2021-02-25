@@ -102,3 +102,57 @@ header {
   align-self: center;
   justify-self: end;
 }
+
+.headerProfile {
+  color: #1F2D46;
+  margin: 5% 0 5% 5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.myProfileImg {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  width: 30%;
+  height: 30%;
+  border-radius: 15px;
+}
+
+.headerProfileImg {
+  text-align: center;
+  margin: 0 0 5% 0;
+}
+
+
+
+
+
+
+.contactForm {
+  text-align: center;
+  display: block;
+}
+
+.profileName {
+  text-align: center;
+  margin: 2% 0 0% 0;
+}
+
+.profileAdress {
+  text-align: center;
+  margin: 2% 0 0% 0;
+}
+
+.profileEmail {
+  text-align: center;
+  margin: 2% 0 0% 0;
+}
+
+.profileNumber {
+  text-align: center;
+  margin: 2% 0 0% 0;
+}
+
+input {
+  border-radius: 15px;
+  text-align: center;
+}
