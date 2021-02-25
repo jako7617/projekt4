@@ -481,3 +481,12 @@ th {
   grid-column: 2/3;
   grid-row: 1/2;
 }
+
+/*KNAPPER*/
+.sektion5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 30px;
+>>>>>>> 658dfdc6bd2c91688279d96139bb4a25dca46840
+}
