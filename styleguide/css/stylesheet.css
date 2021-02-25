@@ -206,7 +206,7 @@ h3 {
 }
 
 .hexcolor {
-line-height: 2.5;
+  line-height: 2.5;
 }
 
 /*IKONER*/
@@ -229,13 +229,15 @@ th {
 .menu {
   background-color: #e3bbab;
 }
-
+.wrappercode-icons {
+  padding-bottom: 70px;
+}
 .kodeboks {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding-top: 20%;
   margin-left: 25%;
+  top: 200px;
   width: 50%;
-  height: auto;
 }
 
 .pink {
@@ -247,7 +249,7 @@ th {
 
 /*TYPOGRAFI*/
 
-.sektion3{
+.sektion3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 1fr);
@@ -260,7 +262,7 @@ th {
 .farven {
   grid-column: 1/4;
   grid-row: 1/2;
-  background-color:  #e3bbab;
+  background-color: #e3bbab;
   height: auto;
 }
 
@@ -307,3 +309,4 @@ th {
 .typo6 {
   grid-column: 1/4;
   grid-row: 9/10;
+}
