@@ -433,9 +433,10 @@ th {
 
 .sektion4 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin-top: 30px;
+  margin-left: 110px;
 }
 
 .logo {
@@ -444,22 +445,33 @@ th {
 }
 
 .kodeboks1 {
-  grid-column: 3/4;
+  grid-column: 2/3;
   grid-row: 1/2;
+  width: 80%;
+  margin-left: 10%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 .logopic {
-  width: 100%;
+  width: 80%;
+  align-content: center;
 }
 
 .pink1 {
-  grid-column: 3/4;
+  grid-column: 2/3;
   grid-row: 1/2;
   padding-top: 4.5%;
-  width: 100%;
+  width: 80%;
   height: 15%;
   background-color: #e3bbab;
+  margin-left: 10%;
+}
+
+.kode-overskrift {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -15%;
+  margin-left: -9%;
 }
 
 /*KNAPPER*/
