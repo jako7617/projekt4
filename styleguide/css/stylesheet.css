@@ -480,4 +480,13 @@ th {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   margin-top: 30px;
+  margin-left: 110px;
+  margin-left: 90px;
+  border: black 1px solid;
 }
+
+.titel {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
