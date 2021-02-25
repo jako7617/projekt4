@@ -216,6 +216,7 @@ table {
   width: 50%;
   margin-left: 25%;
   margin-top: 2%;
+  margin-bottom: 7%;
 }
 
 td,
@@ -231,9 +232,17 @@ th {
 
 .kodeboks {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding-top: 10%;
+  padding-top: 20%;
   margin-left: 25%;
   width: 50%;
+  height: 100%;
+}
+
+.pink {
+  padding-top: 4.5%;
+  margin-left: 25%;
+  width: 50%;
+  background-color: #e3bbab;
 }
 
 /*TYPOGRAFI*/
@@ -298,4 +307,3 @@ th {
 .typo6 {
   grid-column: 1/4;
   grid-row: 9/10;
-}
