@@ -8,4 +8,13 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+function openSearch() {
+  var x = document.getElementById("searchBar");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 //Jakobs kode slut//
