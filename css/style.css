@@ -166,6 +166,7 @@ header {
 .filterIcon,
 .searchIcon {
   width: 22px;
+  position: relative;
 }
 .filterIcon {
   margin-bottom: 2px;
@@ -176,6 +177,16 @@ header {
   grid-column: 2/3;
   align-self: center;
   justify-self: end;
+}
+.navItemSearch input {
+  padding: 6px;
+  border: none;
+  width: 80%;
+  font-size: 17px;
+  display: none;
+  margin: -2% 0 0 -60%;
+  border-radius: 10px;
+  position: absolute;
 }
 
 /* NavigationTop*/
