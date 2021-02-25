@@ -101,26 +101,24 @@ html {
 
 /* The Overlay (background) */
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
-  position: fixed; /* Stay in place */
+  position: fixed;
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  background-color: rgb(31, 45, 70); /* Black fallback color */
-  background-color: rgba(31, 45, 70, 0.99); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  background-color: rgb(31, 45, 70);
+  background-color: rgba(31, 45, 70, 0.99);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
-/* Position the content inside the overlay */
 .overlay-content {
   position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: -50px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
 }
 
 /* The navigation links inside the overlay */
@@ -131,17 +129,13 @@ html {
   font-size: 24px;
   margin-left: 15px;
   color: #e3bbab;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
+  display: block;
+  transition: 0.3s;
 }
-
-/* When you mouse over the navigation links, change their color */
 .overlay a:hover,
 .overlay a:focus {
   color: #f1f1f1;
 }
-
-/* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
   top: 5px;
@@ -264,3 +258,5 @@ header {
   grid-column: 2 / 3;
   grid-row: 6 / 7;
 }
+/* Forside slut */
+/*  */
