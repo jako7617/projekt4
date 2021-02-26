@@ -190,7 +190,7 @@ header {
   grid-template-areas:
     "headerMyAppointments1 . . ."
     "titleSalonHairByUs . . ."
-    "headerMyPreviousAppointments . . ."
+    "headerMyPreviousAppointments1 . . ."
     "titleSalonHoeghHair . . ."
     "titleSalonSalonJanette . . .";
 }
@@ -211,9 +211,14 @@ header {
 .headerMyPreviousAppointments {
   font-size: 20px;
   margin: 0 0 20px 20px;
-  grid-area: headerMyPreviousAppointments;
+  grid-area: headerMyPreviousAppointments1;
   grid-column: 1 / 2;
   grid-row: 3 / 4;
+}
+
+.headerMyPreviousAppointments1 {
+  font-size: 20px;
+  margin: 0 0 0 20px;
 }
 
 .titleSalonHairByUs {
