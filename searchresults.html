@@ -2,9 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Søgeresultater</title>
-    <meta name="viewport" content="width-device-width, initial-scale-1.0"/>
-    <link rel="stylesheet" href="/css/søgeresultater.css"/>
+    <title>Forsiden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/search.css" />
+    <script src="script/script.js" defer charset="utf-8"></script>
   </head>
   <body>
     <header>
@@ -17,11 +18,17 @@
           />
         </div>
         <div class="navItemSearch">
+          <input id="searchBar" type="text" placeholder="Søg.." />
+
           <img
             class="searchIcon"
             src="assets/icons/search.png"
-            alt="Search ikon"
-          /><img
+            alt="Search
+          ikon"
+            onclick="openSearch()"
+          />
+
+          <img
             class="filterIcon"
             src="assets/icons/filter.png"
             alt="Filter ikon"
@@ -38,14 +45,9 @@
       <div class="overlay-content">
         <a href="forside.html">Hjem</a>
         <a href="minetider.html">Mine tider</a>
-        <a href="profil.html">Profil</a>
-        <a href="#">Hjælp</a>
+        <a href="minprofil.html">Profil</a>
+        <a href="#">Hjælp</a><a href="index.html">Log Ud</a>
       </div>
     </div>
-
-    <div class="headerSearchResults">
-      <h1>Søgeresultater - 5000 Odense C</h1>
-    </div>
-
   </body>
 </html>
