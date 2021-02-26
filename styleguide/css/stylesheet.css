@@ -542,6 +542,10 @@ th {
   margin-right: 90px;
 }
 
+.kodeoverskrift {
+  
+}
+
 h4 {
   font-size: 30px;
   margin-top: 30px;
@@ -550,13 +554,23 @@ h4 {
 .btnsGridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(26, 1fr);
+  grid-template-rows: repeat(39, 1fr);
   grid-gap: 2%;
 }
 
 .btnsGridItem1 {
   grid-column: 1/2;
   grid-row: 1/2;
+}
+
+.btnLoginEmail {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.btnLoginEmail {
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
 
 .emailIcon {
@@ -569,11 +583,13 @@ h4 {
   grid-column: 2/3;
   grid-row: 1/2;
   background-color: #e3bbab;
+  height: 50px;
 }
 
 .kodeboksen1 {
   grid-column: 2/3;
   grid-row: 1/2;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 .btnsGridItem3,
