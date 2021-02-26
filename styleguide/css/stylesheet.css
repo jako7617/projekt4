@@ -542,22 +542,27 @@ th {
   margin-right: 90px;
 }
 
-.kodeoverskrift {
-  
-}
-
 h4 {
   font-size: 30px;
   margin-top: 30px;
+}
+
+.kode-overskrift1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -15%;
+  margin-left: -19%;
 }
 
 .btnsGridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(39, 1fr);
-  grid-gap: 2%;
+  grid-row-gap: 70px;
+  grid-column-gap: 2%;
 }
 
+/*Login med telefon knap*/
 .btnsGridItem1 {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -568,18 +573,13 @@ h4 {
   grid-row: 2/3;
 }
 
-.btnLoginEmail {
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
-
 .emailIcon {
   width: 30px;
   margin-right: 10px;
   vertical-align: middle;
 }
 
-.farveboks {
+.farveboks1 {
   grid-column: 2/3;
   grid-row: 1/2;
   background-color: #e3bbab;
@@ -592,6 +592,7 @@ h4 {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
+/*Login med telefon knap*/
 .btnsGridItem3,
 .btnsGridItem5,
 .btnsGridItem7,
