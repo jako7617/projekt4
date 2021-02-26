@@ -83,7 +83,7 @@ header nav ul li a:hover {
   margin-right: 85px;
 }
 
-.logo {
+.forsidelogo {
   max-width: 100%;
   max-height: 100%;
 }
@@ -206,7 +206,7 @@ h3 {
 }
 
 .hexcolor {
-line-height: 2.5;
+  line-height: 2.5;
 }
 
 /*IKONER*/
@@ -229,78 +229,335 @@ th {
 .menu {
   background-color: #e3bbab;
 }
-
+.wrappercode-icons {
+  padding-bottom: 70px;
+}
 .kodeboks {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding-top: 10%;
+  padding-top: 20%;
   margin-left: 25%;
+  top: 200px;
   width: 50%;
-  height: 100%;
+  font-family: "MingLiU_HKSCS";
 }
 
 .pink {
+  padding-top: 4.5%;
+  margin-left: 25%;
+  width: 50%;
   background-color: #e3bbab;
-  height: 25%;
 }
 
 /*TYPOGRAFI*/
 
-.sektion3{
+.sektion3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  margin-left: 110px;
-  margin-right: 85px;
-  border: black 2px solid;
-}
-
-.farven {
-  grid-column: 1/3;
-  grid-row: 1/2;
-  background-color: #1f2d46;
-  height: auto;
-  height: 25%;
+  grid-template-rows: repeat(7, 1fr);
+  margin-left: 115px;
+  margin-right: 90px;
+  margin-top: 30px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
+.farven {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: #e3bbab;
+  height: auto;
+}
+
 .typo1 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+.tekst1 {
   grid-column: 1/2;
   grid-row: 2/3;
-  background-color: blueviolet;
-  border: blueviolet 3px;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.tekst2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.tekst3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 7px;
 }
 
 .typo2 {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tekst12 {
   grid-column: 1/2;
   grid-row: 3/4;
-  background-color: blueviolet;
-  border: blueviolet 3px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tekst22 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tekst32 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .typo3 {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+.tekst13 {
   grid-column: 1/2;
   grid-row: 4/5;
-  background-color: blueviolet;
-  border: blueviolet 3px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.tekst23 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  font-size: 17px;
+  text-align: center;
+}
+
+.tekst33 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  font-size: 17px;
+  text-align: center;
 }
 
 .typo4 {
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+.tekst14 {
   grid-column: 1/2;
   grid-row: 5/6;
-  background-color: blueviolet;
-  border: blueviolet 3px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tekst24 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tekst34 {
+  grid-column: 3/4;
+  grid-row: 5/6;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .typo5 {
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
+
+.tekst15 {
   grid-column: 1/2;
-  grid-row: 7/8;
-  background-color: blueviolet;
-  border: blueviolet 3px;
+  grid-row: 6/7;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tekst25 {
+  grid-column: 2/3;
+  grid-row: 6/7;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tekst35 {
+  grid-column: 3/4;
+  grid-row: 6/7;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .typo6 {
-  grid-column: 1/2;
-  grid-row: 9/10;
-  background-color: blueviolet;
-  border: blueviolet 3px;
+  grid-column: 1/4;
+  grid-row: 7/8;
 }
+
+.tekst16{
+  grid-column: 1/4;
+  grid-row: 7/8;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/*LOGO*/
+
+.sektion4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 30px;
+  margin-left: 110px;
+}
+
+.logo {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.kodeboks1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 80%;
+  height: 110%;
+  margin-left: 10%;
+  font-family: "MingLiU_HKSCS";
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.logopic {
+  width: 80%;
+  align-content: center;
+}
+
+.pink1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-top: 4.5%;
+  width: 80%;
+  height: 20%;
+  background-color: #e3bbab;
+  margin-left: 10%;
+}
+
+.kode-overskrift {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -15%;
+  margin-left: -9%;
+}
+
+.wrapper-box {
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+/*LAYOUT*/
+
+.sektion6 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 30px;
+  margin-left: 110px;
+}
+
+.gridlayout {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.kodeboks1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 80%;
+  height: 110%;
+  margin-left: 10%;
+  font-family: "MingLiU_HKSCS";
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.gridpic {
+  width: 80%;
+  align-content: center;
+}
+
+.pink1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-top: 4.5%;
+  width: 80%;
+  height: 20%;
+  background-color: #e3bbab;
+  margin-left: 10%;
+}
+
+.kode-overskrift {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -15%;
+  margin-left: -9%;
+}
+
+.wrapper-box {
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+/*KNAPPER*/
+.sektion5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 30px;
+  margin-left: 110px;
+  border: black solid 1px;
+}
+
+.loginknap {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.paragraftilloginknap{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.loginkodeboks{
+  grid-column: 1/3;
+  grid-row: 1/4;
+}
+
+/*FORMULAR/*

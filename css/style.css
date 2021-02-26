@@ -132,6 +132,7 @@ html {
   display: block;
   transition: 0.3s;
 }
+
 .overlay a:hover,
 .overlay a:focus {
   color: #f1f1f1;
@@ -166,6 +167,7 @@ header {
 .filterIcon,
 .searchIcon {
   width: 22px;
+  position: relative;
 }
 .filterIcon {
   margin-bottom: 2px;
@@ -176,6 +178,16 @@ header {
   grid-column: 2/3;
   align-self: center;
   justify-self: end;
+}
+.navItemSearch input {
+  padding: 6px;
+  border: none;
+  width: 57%;
+  font-size: 17px;
+  display: none;
+  margin: -2% 0 0 -60%;
+  border-radius: 10px;
+  position: absolute;
 }
 
 /* NavigationTop*/
@@ -262,4 +274,106 @@ header {
   grid-row: 6 / 7;
 }
 /* Forside slut */
-/*  */
+/* Bookingside start */
+
+.headerMyAppointments {
+  font-size: 20px;
+  margin: 0 0 0 30px;
+}
+
+.titleSalon {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 0 5px 30px;
+}
+
+.smallText2 {
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0 0 0 30px;
+}
+.headerMyAppointmentsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.headerMyAppointmentsContainer h1 {
+  grid-column: 1 / 2;
+  grid-row: 1/2;
+}
+#cancelPrices {
+  grid-column: 2 / 3;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: right;
+  margin-right: 12px;
+  width: 25px;
+  height: 25px;
+  outline: none;
+  background-color: #f1f1e2;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+#cancelPrices:checked {
+  -webkit-appearance: square-button;
+}
+.headerMyAppointmentsContainer p {
+  font-size: 14px;
+  grid-column: 2 / 3;
+  align-self: center;
+  justify-self: start;
+  grid-row: 1/2;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px 39.3vw;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+  position: relative;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 16px 39.3vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}

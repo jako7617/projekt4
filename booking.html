@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Forsiden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script/script.js" defer charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navContainer">
+        <div class="navItemHam" onclick="openNav()">
+          <img
+            class="hamIcon"
+            src="assets/icons/menu.png"
+            alt="Hamburger ikon"
+          />
+        </div>
+        <div class="navItemSearch">
+          <input id="searchBar" type="text" placeholder="Søg.." />
+
+          <img
+            class="searchIcon"
+            src="assets/icons/search.png"
+            alt="Search
+          ikon"
+            onclick="openSearch()"
+          />
+
+          <img
+            class="filterIcon"
+            src="assets/icons/filter.png"
+            alt="Filter ikon"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <div class="overlay-content">
+        <a href="forside.html">Hjem</a>
+        <a href="minetider.html">Mine tider</a>
+        <a href="minprofil.html">Profil</a>
+        <a href="#">Hjælp</a>
+      </div>
+    </div>
+    <section>
+      <br />
+      <div class="headerMyAppointmentsContainer">
+        <h1 class="headerMyAppointments">Mine tider</h1>
+        <p>Vis kun afbudspriser</p>
+        <input
+          type="checkbox"
+          id="cancelPrices"
+          name="Afbudspriser"
+          value="Priser"
+        />
+      </div>
+      <br />
+      <h2 class="titleSalon">HairByUs</h2>
+      <p class="smallText2"><b>Behandling:</b> Kvinde klip langt hår</p>
+      <p />
+      <p class="smallText2"><b>Pris:</b> 420,-</p>
+      <p />
+      <p class="smallText2"><b>Frisør:</b> Bente</p>
+      <p />
+      <p class="smallText2"><b>Tid:</b> kl. 18.00 d. 17/11-2021</p>
+      <p />
+      <br />
+    </section>
+    <section>
+      <div class="dropdown">
+        <button onclick="salonServices()" class="dropbtn">Behandling</button>
+        <div id="myDropdown" class="dropdown-content">
+          <p>Klip dame langt hår</p>
+          <p>Klip dame kort hår</p>
+          <p>Farvning</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
