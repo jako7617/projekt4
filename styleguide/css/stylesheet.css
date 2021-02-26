@@ -536,14 +536,63 @@ th {
 }
 
 /*KNAPPER*/
+.sektion5 {
+  margin-top: 30px;
+  margin-left: 110px;
+  margin-right: 90px;
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.kode-overskrift1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -15%;
+  margin-left: -19%;
+}
+
 .btnsGridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(26, 1fr);
-  grid-gap: 2%;
+  grid-template-rows: repeat(39, 1fr);
+  grid-row-gap: 70px;
+  grid-column-gap: 2%;
 }
 
-.btnsGridItem1,
+/*Login med telefon knap*/
+.btnsGridItem1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.btnLoginEmail {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.emailIcon {
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.farveboks1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #e3bbab;
+  height: 50px;
+}
+
+.kodeboksen1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+/*Login med telefon knap*/
 .btnsGridItem3,
 .btnsGridItem5,
 .btnsGridItem7,
