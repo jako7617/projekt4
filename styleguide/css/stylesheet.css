@@ -588,6 +588,7 @@ th {
   grid-template-rows: repeat(3, 1fr);
   margin-top: 30px;
   margin-left: 110px;
+  grid-row-gap: 10%;
 }
 
 .formular-box1 {
@@ -613,6 +614,7 @@ th {
   margin-left: 10%;
   font-family: "MingLiU_HKSCS";
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  margin-bottom: 10%;
 }
 
 .formular1 {
@@ -622,11 +624,13 @@ th {
 
 .formular2 {
   width: 80%;
+  margin-top: -5%;
   align-content: center;
 }
 
 .formular3 {
   width: 80%;
+  margin-top: -10%;
   align-content: center;
 }
 
