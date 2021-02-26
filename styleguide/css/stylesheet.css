@@ -536,6 +536,17 @@ th {
 }
 
 /*KNAPPER*/
+.sektion5 {
+  margin-top: 30px;
+  margin-left: 110px;
+  margin-right: 90px;
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
 .btnsGridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -543,7 +554,33 @@ th {
   grid-gap: 2%;
 }
 
-.btnsGridItem1,
+.btnsGridItem1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.emailIcon {
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.btnsGridItembox1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.farveboks {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #e3bbab;
+}
+
+.kodeboksen1 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
 .btnsGridItem3,
 .btnsGridItem5,
 .btnsGridItem7,
