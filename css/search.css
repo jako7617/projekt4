@@ -1,0 +1,117 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.6;
+  text-decoration: none;
+}
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+body,
+html {
+  height: 100%;
+  padding-top: 0;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Forsiden/hjem i appen */
+
+/* The Overlay (background) */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(31, 45, 70);
+  background-color: rgba(31, 45, 70, 0.99);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  text-align: left;
+  font-size: 24px;
+  margin-left: 15px;
+  color: #e3bbab;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 60px;
+}
+
+header {
+  background-color: #1f2d46;
+  height: 8vh;
+}
+
+.navContainer {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+}
+.navItemHam {
+  grid-column: 1/2;
+  margin-top: 3px;
+  align-self: center;
+  justify-self: center;
+}
+.hamIcon {
+  width: 30px;
+}
+.filterIcon,
+.searchIcon {
+  width: 22px;
+  position: relative;
+}
+.filterIcon {
+  margin-bottom: 2px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.navItemSearch {
+  grid-column: 2/3;
+  align-self: center;
+  justify-self: end;
+}
+.navItemSearch input {
+  padding: 6px;
+  border: none;
+  width: 57%;
+  font-size: 17px;
+  display: none;
+  margin: -2% 0 0 -60%;
+  border-radius: 10px;
+  position: absolute;
+}
