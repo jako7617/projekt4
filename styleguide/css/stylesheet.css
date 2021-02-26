@@ -560,4 +560,75 @@ th {
   grid-row: 1/4;
 }
 
-/*FORMULAR/*
+/*FORMULAR*/
+
+.sektion7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 30px;
+  margin-left: 110px;
+}
+
+.formular-box1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.formular-box2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.formular-box3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.kodeboks2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 80%;
+  height: 110%;
+  margin-left: 10%;
+  font-family: "MingLiU_HKSCS";
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.formular1 {
+  width: 80%;
+  align-content: center;
+}
+
+.formular2 {
+  width: 80%;
+  align-content: center;
+}
+
+.formular3 {
+  width: 80%;
+  align-content: center;
+}
+
+.pink1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-top: 4.5%;
+  width: 80%;
+  height: 20%;
+  background-color: #e3bbab;
+  margin-left: 10%;
+}
+
+.kode-overskrift {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -15%;
+  margin-left: -9%;
+}
+
+.wrapper-box {
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
