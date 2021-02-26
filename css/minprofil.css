@@ -227,3 +227,76 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.gridChangeCode {
+  display: block;
+  background-color: #e3bbab;
+  font-weight: bold;
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 14px;
+  margin: 10px auto;
+  font-family: "Montserrat", sans-serif;
+  color: #1f2d46;
+
+}
+
+.gridChangeCode p {
+  color: #1f2d46;
+  border: none;
+  background-color: #e3bbab;
+  width: 180px;
+  height: 35px;
+  font-size: 14px;
+  margin: 10px 0 0 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+
+}
+
+
+.gridSave {
+  background-color: #e3bbab;
+  font-weight: bold;
+  border: none;
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 14px;
+  margin: 10px auto;
+  font-family: "Montserrat", sans-serif;
+  color: #1f2d46;
+}
+
+.gridSave p {
+  color: #1f2d46;
+  border: none;
+  background-color: #e3bbab;
+  width: 180px;
+  height: 35px;
+  border-radius: 15px;
+  font-size: 14px;
+  margin: 10px auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+
+.btnCreate {
+
+  color: #1f2d46;
+  border: none;
+  background-color: #e3bbab;
+  width: 130px;
+  height: 35px;
+  border-radius: 15px;
+  font-size: 14px;
+  margin: 10px auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
