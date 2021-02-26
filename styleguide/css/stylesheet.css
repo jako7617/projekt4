@@ -537,47 +537,168 @@ th {
 
 /*KNAPPER*/
 .sektion5 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  border: black solid 1px;
+  margin-top: 30px;
   margin-left: 110px;
   margin-right: 90px;
+}
+
+h4 {
+  font-size: 30px;
   margin-top: 30px;
 }
 
-.titel {
+.btnsGridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(26, 1fr);
+  grid-gap: 2%;
+}
+
+.btnsGridItem1 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
 
-.kodetitel {
+.emailIcon {
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.farveboks {
   grid-column: 2/3;
   grid-row: 1/2;
-}
-
-.loginknap {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  border: black solid 1px;
-}
-
-.paragraftilloginknap{
-  grid-column: 1/2;
-  grid-row: 3/4;
-  border: black solid 1px;
-}
-
-.farvenpink {
-  grid-column: 2/3;
-  grid-row: 2/3;
   background-color: #e3bbab;
 }
 
-.loginkodeboks{
+.kodeboksen1 {
   grid-column: 2/3;
-  grid-row: 3/4;
-  border: black solid 1px;
+  grid-row: 1/2;
 }
 
-/*FORMULAR/*
+.btnsGridItem3,
+.btnsGridItem5,
+.btnsGridItem7,
+.btnsGridItem9,
+.btnsGridItem11,
+.btnsGridItem13,
+.btnsGridItem15,
+.btnsGridItem17,
+.btnsGridItem19,
+.btnsGridItem21,
+.btnsGridItem23,
+.btnsGridItem25 {
+  grid-column: 1/2;
+  width: 68%;
+  align-self: center;
+  justify-self: center;
+}
+.btnsGridItem2,
+.btnsGridItem4,
+.btnsGridItem6,
+.btnsGridItem8,
+.btnsGridItem10,
+.btnsGridItem12,
+.btnsGridItem14,
+.btnsGridItem16,
+.btnsGridItem18,
+.btnsGridItem20,
+.btnsGridItem22,
+.btnsGridItem24,
+.btnsGridItem26 {
+  grid-column: 2/3;
+  width: 68%;
+  align-self: center;
+  justify-self: center;
+}
+
+.btnLoginEmail,
+.btnLoginNr {
+  display: block;
+  background-color: #e3bbab;
+  font-weight: bold;
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #1f2d46;
+}
+
+/*FORMULAR*/
+
+.sektion7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 30px;
+  margin-left: 110px;
+  grid-row-gap: 10%;
+}
+
+.formular-box1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.formular-box2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.formular-box3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.kodeboks2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 80%;
+  height: 110%;
+  margin-left: 10%;
+  font-family: "MingLiU_HKSCS";
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  margin-bottom: 10%;
+}
+
+.formular1 {
+  width: 80%;
+  align-content: center;
+}
+
+.formular2 {
+  width: 80%;
+  margin-top: -5%;
+  align-content: center;
+}
+
+.formular3 {
+  width: 80%;
+  margin-top: -10%;
+  align-content: center;
+}
+
+.pink1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-top: 4.5%;
+  width: 80%;
+  height: 20%;
+  background-color: #e3bbab;
+  margin-left: 10%;
+}
+
+.kode-overskrift {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -15%;
+  margin-left: -9%;
+}
+
+.wrapper-box {
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
