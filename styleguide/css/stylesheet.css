@@ -539,25 +539,45 @@ th {
 .sektion5 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  margin-top: 30px;
-  margin-left: 110px;
+  grid-template-rows: repeat(3, 1fr);
   border: black solid 1px;
+  margin-left: 110px;
+  margin-right: 90px;
+  margin-top: 30px;
+}
+
+.titel {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.kodetitel {
+  grid-column: 2/3;
+  grid-row: 1/2;
 }
 
 .loginknap {
   grid-column: 1/2;
   grid-row: 2/3;
+  border: black solid 1px;
 }
 
 .paragraftilloginknap{
   grid-column: 1/2;
   grid-row: 3/4;
+  border: black solid 1px;
+}
+
+.farvenpink {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #e3bbab;
 }
 
 .loginkodeboks{
-  grid-column: 1/3;
-  grid-row: 1/4;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  border: black solid 1px;
 }
 
 /*FORMULAR*/

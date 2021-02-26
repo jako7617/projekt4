@@ -182,9 +182,64 @@ header {
   margin: 10px 0 0 10px;
 }
 
+/*MINE TIDER*/
+.sektion1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas:
+    "headerMyAppointments1 . . ."
+    "titleSalonHairByUs . . ."
+    "headerMyPreviousAppointments1 . . ."
+    "titleSalonHoeghHair . . ."
+    "titleSalonSalonJanette . . .";
+}
+
 .headerMyAppointments {
   font-size: 20px;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 20px;
+  grid-area: headerMyAppointments1;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.headerMyAppointments1 {
+  font-size: 20px;
+  margin: 0 0 0 20px;
+}
+
+.headerMyPreviousAppointments {
+  font-size: 20px;
+  margin: 0 0 20px 20px;
+  grid-area: headerMyPreviousAppointments1;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.headerMyPreviousAppointments1 {
+  font-size: 20px;
+  margin: 0 0 0 20px;
+}
+
+.titleSalonHairByUs {
+  grid-area: titleSalonHairByUs;
+  margin: 0 0 0 10px;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.titleSalonHoeghHair {
+  grid-area: titleSalonHoeghHair;
+  margin: 0 0 0 10px;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.titleSalonSalonJanette {
+  grid-area: titleSalonSalonJanette;
+  margin: 0 0 0 10px;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
 }
 
 .titleSalon {
@@ -197,9 +252,4 @@ header {
   font-weight: normal;
   font-size: 12px;
   margin: 0 0 0 30px;
-}
-
-.headerMyPreviousAppointments {
-  font-size: 20px;
-  margin: 0 0 20px 30px;
 }

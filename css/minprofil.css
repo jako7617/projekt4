@@ -253,9 +253,13 @@ input:checked + .slider:before {
   margin: 10px 0 0 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-
 }
 
+.changeCode {
+  border: none;
+  background-color: #e3bbab;
+  margin-left: 10px;
+}
 
 .gridSave {
   background-color: #e3bbab;
@@ -283,8 +287,12 @@ input:checked + .slider:before {
   font-weight: bold;
 }
 
-
-
+.Save {
+  border: none;
+  background-color: #e3bbab;
+  width: 2px;
+  height: 2px;
+}
 
 
 .btnCreate {
