@@ -52,4 +52,18 @@ function activeFunc(id) {
 function activeFuncTime(id) {
   document.querySelector("#" + id).classList.add("timeActive");
 }
+
 //Jakobs kode slut//
+
+//Tharshika kode start// // https://www.w3schools.com/howto/howto_css_modals.asp
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("cancelBtn");
+
+// When the user clicks on the button, open the modal
+btn.onclick = function () {
+  modal.style.display = "block";
+};
+//Tharshika kode slut//
