@@ -45,7 +45,7 @@
       <div class="overlay-content">
         <a href="forside.html">Hjem</a>
         <a href="minetider.html">Mine tider</a>
-        <a href="profil.html">Profil</a>
+        <a href="minprofil.html">Profil</a>
         <a href="#">Hjælp</a>
       </div>
     </div>
@@ -65,22 +65,22 @@
     <form class="formProfile" method="post">
       <section>
         <div class="">
-          <label>Navn</label>
+          <label><p class="overskriftkode">Navn</p></label>
           <input type="text" name="" value="Morten Andersen" />
         </div>
 
         <div class="">
-          <label>Adresse (valgfrit)</label>
+          <label><p class="overskriftkode">Adresse (valgfrit)</p></label>
           <input type="text" name="" value="Skiberen 234, 1th, Odense C" />
         </div>
 
         <div class="">
-          <label>E-mail</label>
+          <label><p class="overskriftkode">Email</p></label>
           <input type="text" name="" value="mortenandersen@hotmail.com" />
         </div>
 
         <div class="">
-          <label>Mobil nr</label>
+          <label><p class="overskriftkode">Mobil nr.</p></label>
           <input type="text" name="" value="+45 12 34 56 78" />
         </div>
       </section>
@@ -116,18 +116,19 @@
     <div class="gridChangeCode">
       <button
         type="button"
-        class="changeCode"
-        onclick="document.location='skiftkode.html'"
+        class="btnLoginEmail"
+        onclick="document.location='minetider.html'"
       >
-        <p>Skift 4-cifret kode</p>
+        Skift 4-cifret kode
       </button>
     </div>
-
-    <div class="gridSave">
-      <button type="button" class="Save" onclick="document.location='#'">
-        <p>Gem</p>
-      </button>
-    </div>
+    <button
+      type="button"
+      class="btnLoginEmail"
+      onclick="document.location='minetider.html'"
+    >
+      Gem
+    </button>
 
     <br />
 
