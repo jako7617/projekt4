@@ -55,7 +55,8 @@ html {
   align-self: center;
 }
 .btnLoginEmail,
-.btnLoginNr {
+.btnLoginNr,
+.btnBook {
   display: block;
   background-color: #e3bbab;
   font-weight: bold;
@@ -68,7 +69,9 @@ html {
   font-family: "Montserrat", sans-serif;
   color: #1f2d46;
 }
-
+.btnBook {
+  margin-top: 150px;
+}
 .btnCreate {
   display: block;
   color: #1f2d46;
