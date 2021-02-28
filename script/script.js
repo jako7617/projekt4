@@ -17,26 +17,27 @@ function openSearch() {
   }
 }
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function salonServices() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-function salonServices2() {
-  document.getElementById("myDropdown2").classList.toggle("show");
-}
+//https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function (event) {
-  if (!event.target.matches(".dropbtn")) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
-    }
-  }
+var checkList = document.getElementById("list1");
+checkList.getElementsByClassName("anchor")[0].onclick = function (evt) {
+  if (checkList.classList.contains("visible"))
+    checkList.classList.remove("visible");
+  else checkList.classList.add("visible");
 };
+
+var checkList2 = document.getElementById("list2");
+checkList2.getElementsByClassName("anchor")[0].onclick = function (evt) {
+  if (checkList2.classList.contains("visible"))
+    checkList2.classList.remove("visible");
+  else checkList2.classList.add("visible");
+};
+
+var checkList3 = document.getElementById("list3");
+checkList3.getElementsByClassName("anchor")[0].onclick = function (evt) {
+  if (checkList3.classList.contains("visible"))
+    checkList3.classList.remove("visible");
+  else checkList3.classList.add("visible");
+};
+
 //Jakobs kode slut//

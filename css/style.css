@@ -199,6 +199,7 @@ header {
 .timeHome {
   margin: 0 0 0 10px;
 }
+
 .subHeaderHome {
   font-size: 20px;
   margin: 10px 0 0 10px;
@@ -210,6 +211,7 @@ header {
   grid-template-rows: 1fr 4fr 1fr 4fr 1fr 4fr;
   grid-gap: 1%;
 }
+
 .smallText {
   font-weight: normal;
   font-size: 12px;
@@ -223,7 +225,7 @@ header {
   grid-row: 2 / 3;
 }
 
-.favoriteBox,
+.SearchBox1,
 .cancelsBox,
 .cancelsBox2,
 .nearBox,
@@ -325,4 +327,73 @@ header {
   align-self: center;
   justify-self: start;
   grid-row: 1/2;
+}
+
+.dropdown-check-list {
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 50px 5px 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 20px;
+}
+
+.dropdown-check-list ul.items {
+  padding: 0;
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dropdown-check-list ul.items li {
+  list-style: none;
+  margin: 20px 0 20px 10px;
+}
+
+.dropdown-check-list.visible .items {
+  display: block;
+}
+.items label {
+  float: right;
+  margin-right: 3%;
+}
+.dropdown-checkb,
+.dropdown-checkb2 {
+  float: right !important;
+  margin-right: 12px;
+  width: 25px;
+  height: 25px;
+  outline: none;
+  background-color: #f1f1e2;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+.dropdown-checkb,
+.dropdown-checkb2:checked {
+  -webkit-appearance: square-button;
+}
+.dropdown-checkb2 {
+  margin: 40px -40px 0 40px;
+}
+.pickHair {
+  width: 30%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.pickHairDresser {
+  display: flex;
+  flex-direction: row;
+}
+.items li p,
+.items li h3 {
+  margin-left: 10px;
 }
