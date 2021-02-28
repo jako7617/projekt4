@@ -606,6 +606,11 @@ input:checked + .slider:before {
   width: 2px;
   height: 2px;
 }
+.overskriftkode {
+  text-align: left;
+  margin-left: 4rem;
+  font-weight: 600;
+}
 /* min bruger slut */
 
 /* Søgeresultater start */
