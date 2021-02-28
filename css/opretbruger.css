@@ -148,7 +148,7 @@ header {
   grid-template-rows: 1fr;
 }
 
-.sliderBtn {
+.checkboxBtn {
   grid-column: 1/2;
   grid-row: 1/2;
   align-self: center;
@@ -156,29 +156,9 @@ header {
   margin-right: 20px;
 }
 
-.sliderText {
+.buttonText {
   grid-column: 2/3;
   grid-row: 1/2;
-}
-
-.sliderText p {
-  margin-bottom: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-}
-
-.switch {
-  position: relative;
-  display: block;
-  width: 40px;
-  height: 24px;
-  margin-bottom: 12px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
 }
 
 .slider {
@@ -191,41 +171,6 @@ header {
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 18px;
-  width: 18px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-
-}
-
-input:checked + .slider {
-  background-color: #1F2D46;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #1F2D46;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(16px);
-  transform: translateX(16px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
 }
 
 .gridSave {
