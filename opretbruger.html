@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" />
-    <title>minprofil</title>
+    <meta charset="utf-8"/>
+    <title>opretbruger</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/opretbruger.css" />
     <script src="script/script.js" charset="utf-8"></script>
@@ -69,35 +69,37 @@
           <label>Mobil nr</label>
           <input type="text" name="" value="+45 12 34 56 78" />
         </div>
+
+        <div class="">
+          <label>Kode</label>
+          <input type="text" name="" value="1234" />
+        </div>
+
+        <div class="">
+          <label>Skriv kode igen</label>
+          <input type="text" name="" value="1234" />
+        </div>
       </section>
     </form>
 
     <br>
 
     <div class="profileContainer">
-      <div class="sliderBtn">
-        <label class="switch">
-          <input type="checkbox" />
-          <span class="slider round"></span>
-        </label>
+      <div class="checkboxBtn">
+        <input type="checkbox">
+        <label for="touchID"></label><br>
 
-        <label class="switch">
-          <input type="checkbox" />
-          <span class="slider round"></span>
-        </label>
+        <input type="checkbox">
+        <label for="paamindelser"></label><br>
 
-        <label class="switch">
-          <input type="checkbox" />
-          <span class="slider round"></span>
-        </label>
+        <input type="checkbox">
+        <label for="kalendersynkron"></label><br>
 
-        <label class="switch">
-          <input type="checkbox" />
-          <span class="slider round"></span>
-        </label>
+        <input type="checkbox">
+        <label for="acceptTerms"></label><br>
       </div>
 
-      <div class="sliderText">
+      <div class="buttonText">
         <p>Slå touchID til</p>
         <p>Påmindelser</p>
         <p>Synkroniser med min kalender</p>
