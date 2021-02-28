@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>minprofil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/minprofil.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="script/script.js" charset="utf-8"></script>
   </head>
   <body>
@@ -18,11 +18,17 @@
           />
         </div>
         <div class="navItemSearch">
+          <input id="searchBar" type="text" placeholder="Søg.." />
+
           <img
             class="searchIcon"
             src="assets/icons/search.png"
-            alt="Search ikon"
-          /><img
+            alt="Search
+          ikon"
+            onclick="openSearch()"
+          />
+
+          <img
             class="filterIcon"
             src="assets/icons/filter.png"
             alt="Filter ikon"
@@ -80,7 +86,7 @@
       </section>
     </form>
 
-    <br>
+    <br />
 
     <div class="profileContainer">
       <div class="sliderBtn">
@@ -108,8 +114,12 @@
     </div>
 
     <div class="gridChangeCode">
-      <button type="button" class="changeCode" onclick="document.location='#'">
-      <p>Skift 4-cifret kode</p>
+      <button
+        type="button"
+        class="changeCode"
+        onclick="document.location='skiftkode.html'"
+      >
+        <p>Skift 4-cifret kode</p>
       </button>
     </div>
 
@@ -119,7 +129,7 @@
       </button>
     </div>
 
-    <br>
+    <br />
 
     <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
   </body>
