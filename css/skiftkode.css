@@ -203,62 +203,6 @@ header {
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
-
-}
-
-input:checked + .slider {
-  background-color: #1F2D46;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #1F2D46;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(16px);
-  transform: translateX(16px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-.gridChangeCode {
-  display: block;
-  background-color: #e3bbab;
-  font-weight: bold;
-  border: none;
-  width: 250px;
-  height: 50px;
-  border-radius: 15px;
-  font-size: 14px;
-  margin: 10px auto;
-  font-family: "Montserrat", sans-serif;
-  color: #1f2d46;
-
-}
-
-.gridChangeCode p {
-  color: #1f2d46;
-  border: none;
-  background-color: #e3bbab;
-  width: 180px;
-  height: 35px;
-  font-size: 14px;
-  margin: 10px 0 0 30px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-}
-
-.changeCode {
-  border: none;
-  background-color: #e3bbab;
-  margin-left: 10px;
 }
 
 .gridSave {
@@ -305,4 +249,10 @@ input:checked + .slider:before {
   margin: 10px auto;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+}
+
+.overskriftkode {
+  text-align: left;
+  margin-left: 4rem;
+  font-weight: 600;
 }
