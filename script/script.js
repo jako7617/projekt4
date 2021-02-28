@@ -40,4 +40,7 @@ checkList3.getElementsByClassName("anchor")[0].onclick = function (evt) {
   else checkList3.classList.add("visible");
 };
 
+function activeFunc(id) {
+  document.querySelector("#" + id).classList.add("dateActive");
+}
 //Jakobs kode slut//
