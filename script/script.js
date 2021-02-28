@@ -39,5 +39,17 @@ checkList3.getElementsByClassName("anchor")[0].onclick = function (evt) {
     checkList3.classList.remove("visible");
   else checkList3.classList.add("visible");
 };
+var checkList4 = document.getElementById("list4");
+checkList4.getElementsByClassName("anchor")[0].onclick = function (evt) {
+  if (checkList4.classList.contains("visible"))
+    checkList4.classList.remove("visible");
+  else checkList4.classList.add("visible");
+};
 
+function activeFunc(id) {
+  document.querySelector("#" + id).classList.add("dateActive");
+}
+function activeFuncTime(id) {
+  document.querySelector("#" + id).classList.add("timeActive");
+}
 //Jakobs kode slut//

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>opretbruger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/opretbruger.css" />
+    <script src="script/script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navContainer">
+        <div class="navItemHam" onclick="openNav()">
+          <img
+            class="hamIcon"
+            src="assets/icons/menu.png"
+            alt="Hamburger ikon"
+          />
+        </div>
+        <div class="navItemSearch">
+          <img
+            class="searchIcon"
+            src="assets/icons/search.png"
+            alt="Search ikon"
+          /><img
+            class="filterIcon"
+            src="assets/icons/filter.png"
+            alt="Filter ikon"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <div class="overlay-content">
+        <a href="forside.html">Hjem</a>
+        <a href="minetider.html">Mine tider</a>
+        <a href="profil.html">Profil</a>
+        <a href="#">Hjælp</a>
+      </div>
+    </div>
+
+    <section>
+      <h1 class="headerProfile">Opret bruger</h1>
+    </section>
+
+    <form class="formProfile" method="post">
+      <section>
+        <div class="">
+          <label>Navn</label>
+          <input type="text" name=""/>
+        </div>
+
+        <div class="">
+          <label>Adresse (valgfrit)</label>
+          <input type="text" name=""/>
+        </div>
+
+        <div class="">
+          <label>E-mail</label>
+          <input type="text" name=""/>
+        </div>
+
+        <div class="">
+          <label>Mobil nr</label>
+          <input type="text" name=""/>
+        </div>
+
+        <div class="">
+          <label>Kode</label>
+          <input type="text" name=""/>
+        </div>
+
+        <div class="">
+          <label>Skriv kode igen</label>
+          <input type="text" name=""/>
+        </div>
+      </section>
+    </form>
+
+    <br>
+
+    <div class="profileContainer">
+      <div class="checkboxBtn">
+        <input type="checkbox">
+        <label for="touchID"></label><br>
+
+        <input type="checkbox">
+        <label for="paamindelser"></label><br>
+
+        <input type="checkbox">
+        <label for="kalendersynkron"></label><br>
+
+        <input type="checkbox">
+        <label for="acceptTerms"></label><br>
+      </div>
+
+      <div class="buttonText">
+        <p>Slå touchID til</p>
+        <p>Påmindelser</p>
+        <p>Synkroniser med min kalender</p>
+        <p>Accept terms of...</p>
+      </div>
+    </div>
+
+    <div class="gridSave">
+      <button type="button" class="Save" onclick="document.location='#'">
+        <p>Gem</p>
+      </button>
+    </div>
+
+    <br>
+
+    <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
+  </body>
+</html>
