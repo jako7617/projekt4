@@ -294,9 +294,7 @@ input:checked + .slider:before {
   height: 2px;
 }
 
-
 .btnCreate {
-
   color: #1f2d46;
   border: none;
   background-color: #e3bbab;
