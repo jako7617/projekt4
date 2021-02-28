@@ -415,8 +415,16 @@ header {
   background-color: #e3bbab;
   padding: 8px;
   border-radius: 10px;
+  font-weight: 700;
 }
-.calenderGridContainer div {
+.timeActive {
+  background-color: #e3bbab;
+  padding: 4px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.calenderGridContainer div,
+.timesGridContainer div {
   align-self: center;
   justify-self: center;
 }
@@ -424,6 +432,7 @@ header {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5%;
 }
 .timesPara {
   margin: 0 !important;
