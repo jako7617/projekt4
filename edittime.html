@@ -230,7 +230,11 @@
     <div id="list4" class="dropdown-check-list">
       <span class="anchor"><b>Meld Afbud</b></span>
       <ul class="items">
-        <li><p>OBS.! DU ER I GANG MED AT MELDE AFBUD TIL FØLGENDE TID:</p></li>
+        <li>
+          <p class="afbudOBS">
+            OBS.! DU ER I GANG MED AT MELDE AFBUD TIL FØLGENDE TID:
+          </p>
+        </li>
         <h2 class="titleSalon">HairByUs</h2>
         <p class="smallText2"><b>Behandling:</b> Kvinde klip langt hår</p>
         <p />
@@ -242,6 +246,7 @@
         <p />
         <br />
         <button
+          id="cancelBtn"
           type="button"
           class="btnLoginEmail"
           onclick="document.location='edittime.html'"
@@ -263,5 +268,25 @@
     >
       Book
     </button>
+    <div id="myModal" class="modal" />
+    <div class="modal-content">
+      <h2>Afbud bekræftet</h2>
+      <h3 class="titleSalon">HairByUs</h3>
+      <p class="smallText2"><b>Behandling:</b> Kvinde klip langt hår</p>
+      <p />
+      <p class="smallText2"><b>Pris:</b> 420,-</p>
+      <p />
+      <p class="smallText2"><b>Frisør:</b> Bente</p>
+      <p />
+      <p class="smallText2"><b>Tid:</b> kl. 18.00 d. 17/11-2021</p>
+      <p />
+      <button
+        type="button"
+        class="btnLoginEmail"
+        onclick="document.location='minetider.html'"
+      >
+        Ok
+      </button>
+    </div>
   </body>
 </html>
