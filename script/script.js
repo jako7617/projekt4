@@ -39,5 +39,31 @@ checkList3.getElementsByClassName("anchor")[0].onclick = function (evt) {
     checkList3.classList.remove("visible");
   else checkList3.classList.add("visible");
 };
+var checkList4 = document.getElementById("list4");
+checkList4.getElementsByClassName("anchor")[0].onclick = function (evt) {
+  if (checkList4.classList.contains("visible"))
+    checkList4.classList.remove("visible");
+  else checkList4.classList.add("visible");
+};
+
+function activeFunc(id) {
+  document.querySelector("#" + id).classList.add("dateActive");
+}
+function activeFuncTime(id) {
+  document.querySelector("#" + id).classList.add("timeActive");
+}
 
 //Jakobs kode slut//
+
+//Tharshika kode start// // https://www.w3schools.com/howto/howto_css_modals.asp
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("cancelBtn");
+
+// When the user clicks on the button, open the modal
+btn.onclick = function () {
+  modal.style.display = "block";
+};
+//Tharshika kode slut//

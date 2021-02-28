@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Forsiden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script/script.js" defer charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navContainer">
+        <div class="navItemHam" onclick="openNav()">
+          <img
+            class="hamIcon"
+            src="assets/icons/menu.png"
+            alt="Hamburger ikon"
+          />
+        </div>
+        <div class="navItemSearch">
+          <input id="searchBar" type="text" placeholder="Søg.." />
+
+          <img
+            class="searchIcon"
+            src="assets/icons/search.png"
+            alt="Search
+          ikon"
+            onclick="openSearch()"
+          />
+
+          <img
+            class="filterIcon"
+            src="assets/icons/filter.png"
+            alt="Filter ikon"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <div class="overlay-content">
+        <a href="forside.html">Hjem</a>
+        <a href="minetider.html">Mine tider</a>
+        <a href="minprofil.html">Profil</a>
+        <a href="#">Hjælp</a>
+      </div>
+    </div>
+
+    <section>
+      <br />
+      <div class="headerMyAppointmentsContainer">
+        <h1 class="headerMyAppointments">Bekræftelse</h1>
+      </div>
+      <br />
+      <div class="pickHairDresser">
+        <img src="assets/images/frisor2.jpg" alt="frisør" class="confirmImg" />
+        <div>
+          <h4>HairByUs</h4>
+          <p>Bente</p>
+          <p>4 års uddannelse</p>
+
+          <p>16 års erfaring</p>
+
+          <p>Speciale: balayage</p>
+        </div>
+      </div>
+    </section>
+    <br />
+    <section>
+      <div class="confirmGrid">
+        <div class="confirmGridItem1">
+          <h4>Behandling</h4>
+          Kvinde klip langt hår, farvning, føn.
+        </div>
+
+        <br />
+        <div class="confirmGridItem2">
+          <h4>Dato og tid</h4>
+          17/11/2021
+        </div>
+        <div class="confirmGridItem3">
+          1520,-
+        </div>
+        <div class="confirmGridItem4">
+          kl. 18:00-19:00
+        </div>
+      </div>
+    </section>
+    <button
+      type="button"
+      class="btnLoginEmail"
+      onclick="document.location='minetider.html'"
+    >
+      Ok
+    </button>
+  </body>
+</html>
