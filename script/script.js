@@ -41,9 +41,8 @@ checkList3.getElementsByClassName("anchor")[0].onclick = function (evt) {
 };
 
 function activeFunc(id) {
-  document.querySelector("#" + id).classList.add("dateActive");
+  var dates = document.querySelector("#" + id);
 }
-
 function activeFuncTime(id) {
   document.querySelector("#" + id).classList.add("timeActive");
 }
