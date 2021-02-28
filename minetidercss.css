@@ -183,24 +183,9 @@ header {
 }
 
 /*MINE TIDER*/
-.sektion1 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-template-areas:
-    "headerMyAppointments1 . . ."
-    "titleSalonHairByUs . . ."
-    "headerMyPreviousAppointments1 . . ."
-    "titleSalonHoeghHair . . ."
-    "titleSalonSalonJanette . . .";
-}
-
 .headerMyAppointments {
   font-size: 20px;
   margin: 0 0 0 20px;
-  grid-area: "headerMyAppointments1";
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
 }
 
 .headerMyAppointments1 {
@@ -208,12 +193,44 @@ header {
   margin: 0 0 0 20px;
 }
 
+.titleSalonHairByUsGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.titleSalonHairByUs {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.redigerBooking {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.redigerBooking {
+  display: block;
+  background-color: #e3bbab;
+  border: none;
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+  font-size: 10px;
+  margin: 25px 0 0 25px;
+  font-family: "Montserrat", sans-serif;
+  color: #1f2d46;
+}
+
+.titleSalonHairByUs {
+  margin: 0 0 0 10px;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
 .headerMyPreviousAppointments {
   font-size: 20px;
   margin: 0 0 20px 20px;
-  grid-area: "headerMyPreviousAppointments1";
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
 }
 
 .headerMyPreviousAppointments1 {
@@ -221,25 +238,41 @@ header {
   margin: 0 0 0 20px;
 }
 
-.titleSalonHairByUs {
-  grid-area: "titleSalonHairByUs";
-  margin: 0 0 0 10px;
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+.titleSalonHoeghHairGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 .titleSalonHoeghHair {
-  grid-area: "titleSalonHoeghHair";
-  margin: 0 0 0 10px;
   grid-column: 1 / 2;
-  grid-row: 4 / 5;
+  grid-row: 1 / 2;
 }
 
-.titleSalonSalonJanette {
-  grid-area: "titleSalonSalonJanette";
+.bookIgen {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.bookIgen {
+  display: block;
+  background-color: #e3bbab;
+  border: none;
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+  font-size: 10px;
+  margin: 25px 0 0 25px;
+  font-family: "Montserrat", sans-serif;
+  color: #1f2d46;
+}
+
+.titleSalonHoeghHair {
   margin: 0 0 0 10px;
-  grid-column: 1 / 2;
-  grid-row: 5 / 6;
+}
+
+.titleSalonJanette {
+  margin: 0 0 0 10px;
 }
 
 .titleSalon {
@@ -253,3 +286,30 @@ header {
   font-size: 12px;
   margin: 0 0 0 30px;
 }
+
+.titleSalonJanetteGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.titleSalonJanette {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.bookIgen2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.bookIgen2 {  display: block;
+  background-color: #e3bbab;
+  border: none;
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+  font-size: 10px;
+  margin: 25px 0 0 25px;
+  font-family: "Montserrat", sans-serif;
+  color: #1f2d46;}
