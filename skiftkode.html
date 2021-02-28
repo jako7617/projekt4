@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>minprofil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/mskiftkode.css" />
+    <link rel="stylesheet" href="css/skiftkode.css" />
     <script src="script/script.js" charset="utf-8"></script>
   </head>
   <body>
@@ -45,82 +45,34 @@
     </div>
 
     <section>
-      <h1 class="headerProfile">Min profil</h1>
+      <h1 class="headerProfile">Skift Kode</h1>
     </section>
-
-    <div class="headerProfileImg">
-      <img
-        class="myProfileImg"
-        src="assets/images/Morten.jpeg"
-        alt="myProfile"
-      />
-    </div>
 
     <form class="formProfile" method="post">
       <section>
         <div class="">
-          <label>Navn</label>
-          <input type="text" name="" value="Morten Andersen" />
+          <label> <p class="overskriftkode">Gamle kode</p></label>
+          <input type="text" name="" value="4520" />
         </div>
 
         <div class="">
-          <label>Adresse (valgfrit)</label>
-          <input type="text" name="" value="Skiberen 234, 1th, Odense C" />
+          <label> <p class="overskriftkode">Ny kode</p></label>
+          <input type="text" name="" value="6950" />
         </div>
 
         <div class="">
-          <label>E-mail</label>
-          <input type="text" name="" value="mortenandersen@hotmail.com" />
-        </div>
-
-        <div class="">
-          <label>Mobil nr</label>
-          <input type="text" name="" value="+45 12 34 56 78" />
+          <label> <p class="overskriftkode">Ny kode igen</p></label>
+          <input type="text" name="" value="6950" />
         </div>
       </section>
     </form>
 
     <br>
 
-    <div class="profileContainer">
-      <div class="sliderBtn">
-        <label class="switch">
-          <input type="checkbox" />
-          <span class="slider round"></span>
-        </label>
-
-        <label class="switch">
-          <input type="checkbox" />
-          <span class="slider round"></span>
-        </label>
-
-        <label class="switch">
-          <input type="checkbox" />
-          <span class="slider round"></span>
-        </label>
-      </div>
-
-      <div class="sliderText">
-        <p>Slå touchID til</p>
-        <p>Påmindelser</p>
-        <p>Synkroniser med min kalender</p>
-      </div>
-    </div>
-
-    <div class="gridChangeCode">
-      <button type="button" class="changeCode" onclick="document.location='#'">
-      <p>Skift 4-cifret kode</p>
-      </button>
-    </div>
-
     <div class="gridSave">
       <button type="button" class="Save" onclick="document.location='#'">
         <p>Gem</p>
       </button>
     </div>
-
-    <br>
-
-    <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
   </body>
 </html>
