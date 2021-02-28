@@ -397,3 +397,34 @@ header {
 .items li h3 {
   margin-left: 10px;
 }
+.calenderGridContainer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.dateM,
+.dateT,
+.dateW,
+.dateTh,
+.dateF,
+.dateS,
+.dateSun {
+  grid-row: 1/2;
+}
+.dateActive {
+  background-color: #e3bbab;
+  padding: 8px;
+  border-radius: 10px;
+}
+.calenderGridContainer div {
+  align-self: center;
+  justify-self: center;
+}
+.timesGridContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.timesPara {
+  margin: 0 !important;
+}
