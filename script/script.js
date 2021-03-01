@@ -66,14 +66,25 @@ function activeFuncTime(id) {
 //Jakobs kode slut//
 
 //Tharshika kode start// // https://www.w3schools.com/howto/howto_css_modals.asp
-// Get the modal
+
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
 var btn = document.getElementById("cancelBtn");
 
-// When the user clicks on the button, open the modal
 btn.onclick = function () {
   modal.style.display = "block";
 };
 //Tharshika kode slut//
+
+// daniels kode// https://codepen.io/SimonHRD/pen/RwPVyVR
+var input = document.getElementById("toggleswitch");
+var outputtext = document.getElementById("status");
+
+input.addEventListener("change", function () {
+  if (this.checked) {
+    outputtext.innerHTML = "aktiv";
+  } else {
+    outputtext.innerHTML = "inaktiv";
+  }
+});
+//daniels kode slut//
