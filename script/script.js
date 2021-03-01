@@ -15,7 +15,7 @@ function openNav2() {
 function closeNav2() {
   document.getElementById("myNav2").style.width = "0%";
 }
-
+//pernille kode slut//
 -(
   //Lauras kode// - //https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
   function openSearch() {
@@ -27,6 +27,7 @@ function closeNav2() {
     }
   }
 );
+//Lauras kode slut//
 
 //dropdown// - //Jakobs kode//
 //https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown
