@@ -32,6 +32,7 @@
             class="filterIcon"
             src="assets/icons/filter.png"
             alt="Filter ikon"
+            onclick="openNav2()"
           />
         </div>
       </div>
@@ -49,6 +50,74 @@
         <a href="#">Hjælp</a>
       </div>
     </div>
+    <div id="myNav2" class="overlay2">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()"
+        >&times;</a
+      >
+
+      <div class="overlay-content2">
+        <div class="overlayContainer">
+          <h2>Filter</h2>
+
+          <p>Afbudstider</p>
+          <input
+            type="checkbox"
+            class="checkFilter gridFilter1"
+            name="Afbudspriser"
+            value="Priser"
+          />
+
+          <p>Krøller</p>
+          <input
+            type="checkbox"
+            class="checkFilter gridFilter2"
+            name="Kategorier"
+            value="Priser"
+          />
+
+          <p>Glatning</p>
+          <input
+            type="checkbox"
+            class="checkFilter gridFilter3"
+            name="Kategorier"
+            value="Priser"
+          />
+
+          <p>Farve</p>
+          <input
+            type="checkbox"
+            class="checkFilter gridFilter4"
+            name="Kategorier"
+            value="Priser"
+          />
+
+          <p>Herre</p>
+          <input
+            type="checkbox"
+            class="checkFilter gridFilter5"
+            name="Kategorier"
+            value="Priser"
+          />
+
+          <p>Dame</p>
+          <input
+            type="checkbox"
+            class="checkFilter gridFilter6"
+            name="Kategorier"
+            value="Priser"
+          />
+
+          <button
+            type="button"
+            class="btnFilter"
+            onclick="document.location='forside.html'"
+          >
+            Ok
+          </button>
+        </div>
+      </div>
+    </div>
+
     <section>
       <br />
       <div class="headerMyAppointmentsContainer">
