@@ -1,7 +1,7 @@
 console.log("script.js is running..");
 
 //Jakobs kode//
-//https://www.w3schools.com/howto/howto_js_curtain_menu.asp//
+//https://www.w3schools.com/howto/howto_js_curtain_menu.asp// - //https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
 function openNav() {
   document.getElementById("myNav").style.width = "65%";
 }
