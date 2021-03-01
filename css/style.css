@@ -115,6 +115,133 @@ header {
   border-radius: 10px;
   position: absolute;
 }
+/* filter */
+
+/* The Overlay (background) */
+.overlay2 {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  right: 0;
+  top: 0;
+  background-color: rgb(31, 45, 70);
+  background-color: rgba(31, 45, 70, 0.99);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content2 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
+}
+
+/* The navigation links inside the overlay */
+.overlay2 h2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  margin-top: -50px;
+  color: #e3bbab;
+  display: block;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.overlayContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+}
+.overlay2 a {
+  padding: 8px;
+  text-decoration: none;
+  color: #e3bbab;
+  display: block;
+  transition: 0.3s;
+}
+.overlay2 p {
+  grid-column: 2 / 3;
+  text-decoration: none;
+  align-self: center;
+  justify-self: flex-start;
+  font-size: 14px;
+  margin-left: 30px;
+  color: #e3bbab;
+  display: block;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+}
+.overlayContainer input {
+  text-align: center;
+  justify-self: center;
+}
+
+.overlay2 .closebtn {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.checkFilter {
+  grid-column: 1 / 2;
+  align-self: center;
+  justify-self: flex-end;
+  width: 25px;
+  height: 25px;
+  outline: none;
+  margin: 10px 0;
+  background-color: #f1f1e2;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+.checkFilter:checked {
+  -webkit-appearance: square-button;
+}
+.gridFilter1 {
+  grid-row: 2/3;
+}
+.gridFilter2 {
+  grid-row: 3/4;
+}
+.gridFilter3 {
+  grid-row: 4/5;
+}
+.gridFilter4 {
+  grid-row: 5/6;
+}
+.gridFilter5 {
+  grid-row: 6/7;
+}
+.gridFilter6 {
+  grid-row: 7/8;
+}
+.btnFilter {
+  grid-column: 1 / 4;
+  align-self: center;
+  justify-self: center;
+  display: block;
+  background-color: #e3bbab;
+  font-weight: bold;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 14px;
+  margin: 35px 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* filter lsut */
 
 /*Log ind front siden/landing page */
 #loginFront {
