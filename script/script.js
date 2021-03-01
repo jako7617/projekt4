@@ -1,7 +1,7 @@
 console.log("script.js is running..");
 
-//Jakobs kode//
-//https://www.w3schools.com/howto/howto_js_curtain_menu.asp// - //https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+//Pernilles kode//
+//https://www.w3schools.com/howto/howto_js_curtain_menu.asp//
 function openNav() {
   document.getElementById("myNav").style.width = "65%";
 }
@@ -16,16 +16,19 @@ function closeNav2() {
   document.getElementById("myNav2").style.width = "0%";
 }
 
-function openSearch() {
-  var x = document.getElementById("searchBar");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+-(
+  //Lauras kode// - //https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+  function openSearch() {
+    var x = document.getElementById("searchBar");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
   }
-}
+);
 
-//dropdown
+//dropdown// - //Jakobs kode//
 //https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown
 
 var checkList = document.getElementById("list1");
@@ -55,7 +58,7 @@ checkList4.getElementsByClassName("anchor")[0].onclick = function (evt) {
   else checkList4.classList.add("visible");
 };
 
-//kalender
+//kalender//
 function activeFunc(id) {
   document.querySelector("#" + id).classList.add("dateActive");
 }
