@@ -8,6 +8,14 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
+function openNav2() {
+  document.getElementById("myNav2").style.width = "65%";
+}
+function closeNav2() {
+  document.getElementById("myNav2").style.width = "0%";
+}
+
 function openSearch() {
   var x = document.getElementById("searchBar");
   if (x.style.display === "none") {
