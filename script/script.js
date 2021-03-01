@@ -25,6 +25,7 @@ function openSearch() {
   }
 }
 
+//dropdown
 //https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown
 
 var checkList = document.getElementById("list1");
@@ -54,6 +55,7 @@ checkList4.getElementsByClassName("anchor")[0].onclick = function (evt) {
   else checkList4.classList.add("visible");
 };
 
+//kalender
 function activeFunc(id) {
   document.querySelector("#" + id).classList.add("dateActive");
 }
