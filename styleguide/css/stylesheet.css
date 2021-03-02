@@ -240,11 +240,10 @@ td img {
 }
 .kodeboks {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding-top: 20%;
   margin-left: 25%;
   top: 200px;
   width: 50%;
-  font-family: "MingLiU_HKSCS";
+  font-family: 'Roboto Mono', monospace;
 }
 
 .pink {
