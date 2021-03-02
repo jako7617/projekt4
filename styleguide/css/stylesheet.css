@@ -83,9 +83,10 @@ header nav ul li a:hover {
   margin-right: 85px;
 }
 
-.forsidelogo {
-  max-width: 100%;
-  max-height: 100%;
+.forsidelogobillede {
+  max-width: 90%;
+  max-height: 90%;
+  padding-left: 10%;
 }
 
 .quote {
