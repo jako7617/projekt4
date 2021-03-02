@@ -93,7 +93,6 @@ header nav ul li a:hover {
 }
 
 /*FARVER*/
-
 hr {
   margin-left: 100px;
   margin-top: 75px;
@@ -140,7 +139,7 @@ h3 {
   grid-area: "infobox1";
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
-  height: 250px;
+  height: 350px;
   background-color: #ffff;
   padding: 2%;
 }
@@ -160,7 +159,7 @@ h3 {
   grid-area: "infobox2";
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
-  height: 250px;
+  height: 350px;
   background-color: #ffff;
   padding: 2%;
 }
@@ -180,7 +179,7 @@ h3 {
   grid-area: "infobox3";
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
-  height: 250px;
+  height: 350px;
   background-color: #ffff;
   padding: 2%;
 }
@@ -200,7 +199,7 @@ h3 {
   grid-area: "infobox4";
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
-  height: 250px;
+  height: 350px;
   background-color: #ffff;
   padding: 2%;
 }
