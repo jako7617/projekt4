@@ -23,6 +23,17 @@ html {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+button,
+div {
+  font-family: "Montserrat", sans-serif;
+}
 
 .logoSide {
   width: 85px;
@@ -286,7 +297,7 @@ header {
 .btnTops {
   display: block;
   background-color: #e3bbab;
-  font-weight: bold;
+  font-weight: 700;
   border: none;
   width: 250px;
   height: 50px;
@@ -295,7 +306,10 @@ header {
   margin: 10px auto;
   font-family: "Montserrat", sans-serif;
   color: #1f2d46;
+  align-self: center;
+  justify-self: center;
 }
+
 .btnBook {
   margin-top: 150px;
 }
@@ -711,7 +725,7 @@ input:checked + .roundbutton:before {
   text-align: left;
   margin-left: 4rem;
   margin-top: 25px;
-  font-weight: 600;
+  font-weight: 700;
 }
 /* min bruger slut */
 
@@ -1106,7 +1120,7 @@ input:checked + .roundbutton:before {
 .confirmGrid {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-row: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 .confirmGridItem1,
 .confirmGridItem2 {
