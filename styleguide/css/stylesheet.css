@@ -226,6 +226,12 @@ th {
   padding: 10px;
 }
 
+td img {
+  width: 55px;
+  height: 30px;
+  padding-left: 25px;
+}
+
 .menu {
   background-color: #e3bbab;
 }
