@@ -519,12 +519,12 @@ td img {
   align-content: center;
 }
 
-.pink1 {
+.pink22 {
   grid-column: 2/3;
   grid-row: 1/2;
   padding-top: 4.5%;
   width: 80%;
-  height: 20%;
+  height: 6%;
   background-color: #e3bbab;
   margin-left: 10%;
 }
