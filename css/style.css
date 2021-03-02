@@ -24,6 +24,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.logoSide {
+  width: 85px;
+  margin: 50px 0 -130px 70px;
+}
+
 /*hamburger */
 /* The Overlay (background) */
 .overlay {
@@ -105,7 +110,7 @@ header {
   align-self: center;
   justify-self: end;
 }
-.navItemSearch input {
+#searchBar {
   padding: 6px;
   border: none;
   width: 57%;
@@ -1096,7 +1101,7 @@ input:checked + .roundbutton:before {
   height: auto;
   object-fit: cover;
   border-radius: 15px;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 .confirmGrid {
   display: grid;
@@ -1107,7 +1112,8 @@ input:checked + .roundbutton:before {
 .confirmGridItem2 {
   grid-column: 1/2;
   font-size: 14px;
-  margin-left: 15px;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 .confirmGridItem1 {
   grid-row: 1/2;
