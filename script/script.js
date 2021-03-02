@@ -16,17 +16,16 @@ function closeNav2() {
   document.getElementById("myNav2").style.width = "0%";
 }
 //pernille kode slut//
--(
-  //Lauras kode// - //https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
-  function openSearch() {
-    var x = document.getElementById("searchBar");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+//Lauras kode// - //https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+function openSearch() {
+  var x = document.getElementById("searchBar");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
-);
+}
+
 //Lauras kode slut//
 
 //dropdown// - //Jakobs kode//
