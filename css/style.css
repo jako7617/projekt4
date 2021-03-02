@@ -68,7 +68,7 @@ div {
   padding: 8px;
   text-decoration: none;
   text-align: left;
-  font-size: 24px;
+  font-size: 20px;
   margin-left: 15px;
   color: #e3bbab;
   display: block;
@@ -161,7 +161,7 @@ header {
   grid-row: 1/2;
   padding: 4px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   margin-top: -50px;
   color: #e3bbab;
@@ -187,7 +187,7 @@ header {
   text-decoration: none;
   align-self: center;
   justify-self: flex-start;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 30px;
   color: #e3bbab;
   display: block;
@@ -253,7 +253,7 @@ header {
   width: 150px;
   height: 50px;
   border-radius: 15px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 35px 0;
   font-family: "Montserrat", sans-serif;
 }
@@ -282,7 +282,7 @@ header {
   align-self: end;
 }
 .headerLogin {
-  font-size: 32px;
+  font-size: 30px;
   color: #f1f1e2;
 }
 .gridLoginItem2 {
@@ -302,7 +302,7 @@ header {
   width: 250px;
   height: 50px;
   border-radius: 15px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px auto;
   font-family: "Montserrat", sans-serif;
   color: #1f2d46;
@@ -324,7 +324,7 @@ header {
   width: 130px;
   height: 35px;
   border-radius: 15px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px auto;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -429,7 +429,7 @@ header {
   width: 180px;
   height: 50px;
   border-radius: 15px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px auto;
   font-family: "Montserrat", sans-serif;
   color: #1f2d46;
@@ -442,7 +442,7 @@ header {
   width: 180px;
   height: 35px;
   border-radius: 15px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px auto;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -624,9 +624,9 @@ header {
 }
 
 .sliderText p {
-  margin-bottom: 14px;
+  margin-bottom: 8px;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .ergebnis {
@@ -691,7 +691,7 @@ input:checked + .roundbutton:before {
   width: 250px;
   height: 50px;
   border-radius: 15px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px auto;
   font-family: "Montserrat", sans-serif;
   color: #1f2d46;
@@ -703,7 +703,7 @@ input:checked + .roundbutton:before {
   background-color: #e3bbab;
   width: 180px;
   height: 35px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px 0 0 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -834,9 +834,6 @@ input:checked + .roundbutton:before {
 .redigerBooking {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
-}
-
-.redigerBooking {
   display: block;
   background-color: #e3bbab;
   border: none;
@@ -991,11 +988,12 @@ input:checked + .roundbutton:before {
   -webkit-appearance: square-button;
 }
 .headerMyAppointmentsContainer p {
-  font-size: 14px;
+  font-size: 12px;
   grid-column: 2 / 3;
   align-self: center;
   justify-self: start;
   grid-row: 1/2;
+  margin-left: 20px;
 }
 
 .dropdown-check-list {
@@ -1066,6 +1064,12 @@ input:checked + .roundbutton:before {
 .items li h3 {
   margin-left: 10px;
 }
+.items li h3 {
+  font-size: 20px;
+}
+.items li h5 {
+  font-size: 12px;
+}
 .calenderGridContainer {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -1125,7 +1129,7 @@ input:checked + .roundbutton:before {
 .confirmGridItem1,
 .confirmGridItem2 {
   grid-column: 1/2;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 30px;
   margin-bottom: 10px;
 }
