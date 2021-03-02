@@ -2,10 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>minprofil</title>
+    <title>Min profil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="script/script.js" charset="utf-8"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+    <script src="script/script.js" defer></script>
   </head>
   <body>
     <header>
@@ -141,23 +146,27 @@
     <form class="formProfile" method="post">
       <section>
         <div class="">
-          <label><p class="overskriftkode">Navn</p></label>
-          <input type="text" name="" value="Morten Andersen" />
+          <p class="overskriftkode">Navn</p>
+          <input type="text" name="navn" value="Morten Andersen" />
         </div>
 
         <div class="">
-          <label><p class="overskriftkode">Adresse (valgfrit)</p></label>
-          <input type="text" name="" value="Skiberen 234, 1th, Odense C" />
+          <p class="overskriftkode">Adresse (valgfrit)</p>
+          <input
+            type="text"
+            name="adresse"
+            value="Skiberen 234, 1th, Odense C"
+          />
         </div>
 
         <div class="">
-          <label><p class="overskriftkode">Email</p></label>
-          <input type="text" name="" value="mortenandersen@hotmail.com" />
+          <p class="overskriftkode">Email</p>
+          <input type="text" name="email" value="mortenandersen@hotmail.com" />
         </div>
 
         <div class="">
-          <label><p class="overskriftkode">Mobil nr.</p></label>
-          <input type="text" name="" value="+45 12 34 56 78" />
+          <p class="overskriftkode">Mobil nr.</p>
+          <input type="text" name="Nummer" value="+45 12 34 56 78" />
         </div>
       </section>
     </form>
@@ -167,15 +176,15 @@
     <div class="profileContainer">
       <div class="">
         <label class="toggle">
-          <input id="toggleswitch" type="checkbox" />
+          <input class="toggleswitch" type="checkbox" />
           <span class="roundbutton"></span>
         </label>
         <label class="toggle">
-          <input id="toggleswitch" type="checkbox" />
+          <input class="toggleswitch" type="checkbox" />
           <span class="roundbutton"></span>
         </label>
         <label class="toggle">
-          <input id="toggleswitch" type="checkbox" />
+          <input class="toggleswitch" type="checkbox" />
           <span class="roundbutton"></span>
         </label>
       </div>

@@ -80,7 +80,7 @@ btn.onclick = function () {
 //Tharshika kode slut//
 
 // daniels kode// https://codepen.io/SimonHRD/pen/RwPVyVR
-var input = document.getElementById("toggleswitch");
+var input = document.getElementsByClassName("toggleswitch");
 var outputtext = document.getElementById("status");
 
 input.addEventListener("change", function () {
