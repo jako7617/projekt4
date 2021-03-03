@@ -541,6 +541,7 @@ td img {
   margin-top: 30px;
   margin-left: 110px;
   margin-right: 90px;
+
 }
 
 h4 {
@@ -590,6 +591,7 @@ h4 {
 .kodeboksen1 {
   grid-column: 2/3;
   grid-row: 1/2;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
@@ -633,6 +635,7 @@ h4 {
 .kodeboksen2 {
   grid-column: 2/3;
   grid-row: 2/3;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
