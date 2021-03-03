@@ -332,7 +332,6 @@ td img {
   grid-column: 3/4;
   grid-row: 3/4;
   font-size: 20px;
-  font-weight: 600;
   text-align: center;
 }
 
@@ -344,21 +343,21 @@ td img {
 .tekst13 {
   grid-column: 1/2;
   grid-row: 4/5;
-  font-size: 17px;
+  font-size: 16px;
   text-align: center;
 }
 
 .tekst23 {
   grid-column: 2/3;
   grid-row: 4/5;
-  font-size: 17px;
+  font-size: 16px;
   text-align: center;
 }
 
 .tekst33 {
   grid-column: 3/4;
   grid-row: 4/5;
-  font-size: 17px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -370,7 +369,7 @@ td img {
 .tekst14 {
   grid-column: 1/2;
   grid-row: 5/6;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   text-align: center;
 }
@@ -378,7 +377,7 @@ td img {
 .tekst24 {
   grid-column: 2/3;
   grid-row: 5/6;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   text-align: center;
 }
@@ -386,8 +385,7 @@ td img {
 .tekst34 {
   grid-column: 3/4;
   grid-row: 5/6;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -400,7 +398,6 @@ td img {
   grid-column: 1/2;
   grid-row: 6/7;
   font-size: 10px;
-  font-weight: 600;
   text-align: center;
 }
 
@@ -408,7 +405,6 @@ td img {
   grid-column: 2/3;
   grid-row: 6/7;
   font-size: 10px;
-  font-weight: 600;
   text-align: center;
 }
 
@@ -416,7 +412,6 @@ td img {
   grid-column: 3/4;
   grid-row: 6/7;
   font-size: 10px;
-  font-weight: 600;
   text-align: center;
 }
 
@@ -428,7 +423,7 @@ td img {
 .tekst16{
   grid-column: 1/4;
   grid-row: 7/8;
-  font-size: 15px;
+  font-size: 12px;
   padding-left: 20px;
   padding-right: 20px;
 }
