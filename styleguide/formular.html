@@ -132,17 +132,249 @@
      </ul>
 
      <div class="formular-box3"><h2>Søgefunktion<h2></div>
-
+       <div class="navItemSearch">
+       <input
+       id="searchBar"
+       type="text"
+       placeholder="Søg.."
+       onclick="document.location='searchresults.html'"
+       />
+       <img
+       onclick="openSearch()"
+       class="searchIcon"
+       src="icons1/search.png"
+       alt="Search
+       ikon"
+       />
+       </div>
 
      <div class="kode-overskrift">
     <h3>Kode</h3> </div>
        <div class="wrapper-box">
      <div class="pink1"></div>
-     <div class="kodeboks2">kode kode kode</div>
+     <div class="kodeboks2">
+       <b>HTML:</b> <br>
+       &lt;form class="formProfile" method="post"&gt; <br>
+         &lt;section&gt; <br>
+           &lt;div class=""&gt; <br>
+             &lt;p class="overskriftkode">Navn&lt;p/&gt; <br>
+             &lt;input type="text" name="navn" value="Morten Andersen" /> <br>
+            &lt;/div&gt; <br>
+
+           &lt;div class=""&gt; <br>
+             &lt;p class="overskriftkode">Adresse (valgfrit)&lt;/p&gt; <br>
+             &lt;input <br>
+               type="text" <br>
+               name="adresse" <br>
+               value="Skiberen 234, 1th, Odense C" <br>
+             /&gt; <br>
+           &lt;/div&gt; <br>
+
+           &lt;div class=""&gt; <br>
+             &lt;p class="overskriftkode">Email&lt;/p&gt; <br>
+             &lt;input type="text" name="email" value="mortenandersen@hotmail.com" /&gt; <br>
+           &lt;/div> <br>
+
+           &lt;div class=""&gt; <br>
+             &lt;p class="overskriftkode">Mobil nr.&lt;/p&gt; <br>
+             &lt;input type="text" name="Nummer" value="+45 12 34 56 78" /&gt; <br>
+           &lt;/div&gt; <br>
+         &lt;/section&gt; <br>
+       &lt;/form&gt; <br>
+
+       <br>
+       <br>
+       <b>CSS:</b> <br>
+       .formProfile {  <br>
+         grid-column: 1/2; <br>
+         grid-row: 1/2; <br>
+         margin-top: 60px; <br>
+       } <br>
+
+       .formProfile section div { <br>
+         text-align: center; <br>
+         margin: 0 auto; <br>
+       } <br>
+
+       .formProfile section div label { <br>
+         display: block; <br>
+         text-align: center; <br>
+         margin-top: 15px; <br>
+       } <br>
+
+       .formProfile section div input { <br>
+         width: 75%; <br>
+         border-radius: 15px; <br>
+         border: none; <br>
+         box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.4); <br>
+         padding: 7px; <br>
+         font-family: "Montserrat", sans-serif; <br>
+       } <br>
+
+     </div>
      <div class="pink1"></div>
-     <div class="kodeboks2">kode kode kode</div>
+     <div class="kodeboks2">
+     <b>HTML:</b> <br>
+       &lt;ul class="items" <br>
+         &lt;li&gt; <br>
+           &lt;h4>Ledige tider&lt;/h4&gt; <br>
+           &lt;h5>November 2020&lt;/h5&gt; <br>
+
+           &lt;div class="calenderGridContainer"&gt; <br>
+             &lt;div class="dateM">M&lt;/div&gt; <br>
+             &lt;div class="dateT">T&lt;/div&gt; <br>
+             &lt;div class="dateW">O&lt;/div&gt; <br>
+             &lt;div class="dateTh">T&lt;/div&gt; <br>
+             &lt;div class="dateF">F&lt;/div&gt; <br>
+             &lt;div class="dateS">L&lt;/div&gt; <br>
+             &lt;div class="dateSun">S&lt;/div&gt; <br>
+             &lt;br /&gt;&lt;br /&gt; <br>
+             &lt;div id="date1" onclick="activeFunc('date1')">1&lt;/div&gt; <br>
+             &lt;div id="date2" onclick="activeFunc('date2')">2&lt;/div&gt; <br>
+             &lt;div id="date3" onclick="activeFunc('date3')">3&lt;/div&gt; <br>
+             &lt;div id="date4" onclick="activeFunc('date4')">4&lt;/div&gt; <br>
+             &lt;div id="date5" onclick="activeFunc('date5')">5&lt;/div&gt;<br>
+             &lt;div id="date6" onclick="activeFunc('date6')">6&lt;/div&gt;<br>
+             &lt;div id="date7" onclick="activeFunc('date7')">7&lt;/div&gt;<br>
+             &lt;div id="date8" onclick="activeFunc('date8')">8&lt;/div&gt;<br>
+             &lt;div id="date9" onclick="activeFunc('date9')">9&lt;/div&gt;<br>
+             &lt;div id="date10" onclick="activeFunc('date10')">10&lt;/div&gt;<br>
+             &lt;div id="date11" onclick="activeFunc('date11')">11&lt;/div&gt;<br>
+             &lt;div id="date12" onclick="activeFunc('date12')">12&lt;/div&gt;<br>
+             &lt;div id="date13" onclick="activeFunc('date13')">13&lt;/div&gt;<br>
+             &lt;div id="date14" onclick="activeFunc('date14')">14&lt;/div&gt;<br>
+             &lt;div id="date15" onclick="activeFunc('date15')">15&lt;/div&gt;<br>
+             &lt;div id="date16" onclick="activeFunc('date16')">16&lt;/div&gt;<br>
+             &lt;div id="date17" onclick="activeFunc('date17')">17&lt;/div&gt;<br>
+             &lt;div id="date18" onclick="activeFunc('date18')">18&lt;/div&gt;<br>
+             &lt;div id="date19" onclick="activeFunc('date19')">19&lt;/div&gt;<br>
+             &lt;div id="date20" onclick="activeFunc('date20')">20&lt;/div&gt;<br>
+             &lt;div id="date21" onclick="activeFunc('date21')">21&lt;/div&gt;<br>
+             &lt;div id="date22" onclick="activeFunc('date22')">22&lt;/div&gt;<br>
+             &lt;div id="date23" onclick="activeFunc('date23')">23&lt;/div&gt;<br>
+             &lt;div id="date24" onclick="activeFunc('date24')">24&lt;/div&gt;<br>
+             &lt;div id="date25" onclick="activeFunc('date25')">25&lt;/div&gt;<br>
+             &lt;div id="date26" onclick="activeFunc('date26')">26&lt;/div&gt;<br>
+             &lt;div id="date27" onclick="activeFunc('date27')">27&lt;/div&gt;<br>
+             &lt;div id="date28" onclick="activeFunc('date28')">28&lt;/div&gt;<br>
+             &lt;div id="date29" onclick="activeFunc('date29')">29&lt;/div&gt;<br>
+             &lt;div id="date30" onclick="activeFunc('date30')">30&lt;/div&gt;<br>
+             &lt;div id="date31" onclick="activeFunc('date31')">31&lt;/div&gt;<br>
+           &lt;/div&gt;<br>
+           &lt;hr /&gt;<br>
+           &lt;br /&gt;<br>
+           &lt;h4>Ledige tider&lt;/h4&gt;<br>
+           &lt;div class="timesGridContainer"&gt;<br>
+             &lt;div id="time1" onclick="activeFuncTime('time1')">11:00&lt;/div&gt;<br>
+             &lt;div id="time2" onclick="activeFuncTime('time2')">13:30&lt;/div&gt;<br>
+             &lt;div id="time3" onclick="activeFuncTime('time3')">15:15&lt;/div&gt;<br>
+             &lt;div id="time4" onclick="activeFuncTime('time4')">16:00&lt;/div&gt;<br>
+             &lt;div id="time5" onclick="activeFuncTime('time5')">17:00&lt;/div&gt;<br>
+             &lt;div id="time6" onclick="activeFuncTime('time6')">18:00&lt;/div&gt;<br>
+             &lt;div id="time7" onclick="activeFuncTime('time7')">18:30&lt;/div&gt;<br>
+           &lt;/div&gt;<br>
+           &lt;br /&gt;<br>
+           &lt;p class="timesPara"><b>Dato:</b> 17. november&lt;/p&gt;<br>
+           &lt;p class="timesPara"><b>Tid:</b> kl. 18:00&lt;/p&gt;<br>
+         &lt;/li&gt;<br>
+         &lt;li&gt;<br>
+           &lt;button<br>
+             type="button"<br>
+             class="btnLoginEmail"<br>
+             onclick="document.location='booking.html'"<br>
+           &gt;<br>
+             Ok<br>
+           &lt;/button&gt;<br>
+         &lt;/li&gt;<br>
+       &lt;/ul&gt;<br>
+       <br>
+       <b>CSS:</b> <br>
+       .items { <br>
+         grid-column: 1/2; <br>
+         grid-row: 2/3; <br>
+       } <br>
+
+       .calenderGridContainer { <br>
+         display: grid;
+         grid-template-columns: repeat(7, 1fr); <br>
+         grid-template-rows: repeat(6, 1fr); <br>
+       }<br>
+       .dateM,<br>
+       .dateT,<br>
+       .dateW,<br>
+       .dateTh,<br>
+       .dateF,<br>
+       .dateS,<br>
+       .dateSun {<br>
+         grid-row: 1/2;<br>
+       }<br>
+       .dateActive {<br>
+         background-color: #e3bbab;<br>
+         padding: 8px;<br>
+         border-radius: 10px;<br>
+         font-weight: 700;<br>
+       }<br>
+       .timeActive {<br>
+         background-color: #e3bbab;<br>
+         padding: 4px;<br>
+         border-radius: 10px;<br>
+         font-weight: 700;<br>
+       }<br>
+       .calenderGridContainer div,<br>
+       .timesGridContainer div {<br>
+         align-self: center;<br>
+         justify-self: center;<br>
+       }<br>
+       .timesGridContainer {<br>
+         display: grid;<br>
+         grid-template-columns: repeat(5, 1fr);<br>
+         grid-template-rows: repeat(2, 1fr);<br>
+         grid-gap: 5%;<br>
+       }<br>
+       .timesPara {<br>
+         margin: 0 !important;<br>
+       }<br>
+
+     </div>
      <div class="pink1"></div>
-     <div class="kodeboks2">kode kode kode</div>
+     <div class="kodeboks2">
+
+      <b>HTML:</b> <br>
+       &lt;div class="navItemSearch"&gt; <br>
+         &lt;input <br>
+           id="searchBar" <br>
+           type="text"<br>
+           placeholder="Søg.."<br>
+           onclick="document.location='searchresults.html'"<br>
+         /&gt;<br>
+         &lt;img<br>
+           onclick="openSearch()"<br>
+           class="searchIcon"<br>
+           src="assets/icons/search.png"<br>
+           alt="Search<br>
+         ikon"<br>
+         /&gt;<br>
+       &lt;/div&gt;<br>
+      <br>
+
+      <b>CSS:</b> <br>
+      .navItemSearch { <br>
+      grid-column: 2/3; <br>
+      align-self: center; <br>
+      justify-self: end;<br>
+      }<br>
+      #searchBar {<br>
+      padding: 6px;<br>
+      border: none;<br>
+      width: 57%;<br>
+      font-size: 17px;<br>
+      display: none;<br>
+      margin: -2% 0 0 -60%;<br>
+      border-radius: 10px;<br>
+      position: absolute;<br>
+      }
+
+     </div>
       </div>
     </div>
 
