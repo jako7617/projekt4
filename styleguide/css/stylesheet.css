@@ -127,7 +127,7 @@ h3 {
 .farve1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  grid-area: "farve1";
+  grid-area: farve1;
   background-color: #1f2d46;
   height: auto;
   height: 25%;
@@ -137,7 +137,7 @@ h3 {
 .infobox1 {
   grid-column: 1/2;
   grid-row: 2/3;
-  grid-area: "infobox1";
+  grid-area: infobox1;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   height: 350px;
@@ -148,7 +148,7 @@ h3 {
 .farve2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  grid-area: "farve2";
+  grid-area: farve2;
   background-color: #e3bbab;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -157,7 +157,7 @@ h3 {
 .infobox2 {
   grid-column: 2/3;
   grid-row: 2/3;
-  grid-area: "infobox2";
+  grid-area: infobox2;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   height: 350px;
@@ -168,7 +168,7 @@ h3 {
 .farve3 {
   grid-column: 3/4;
   grid-row: 1/2;
-  grid-area: "farve3";
+  grid-area: farve3;
   background-color: #f1f1e2;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -177,7 +177,7 @@ h3 {
 .infobox3 {
   grid-column: 3/4;
   grid-row: 2/3;
-  grid-area: "infobox3";
+  grid-area: infobox3;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   height: 350px;
@@ -188,7 +188,7 @@ h3 {
 .farve4 {
   grid-column: 4/5;
   grid-row: 1/2;
-  grid-area: "farve4";
+  grid-area: farve4;
   background-color: #ffffff;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -197,7 +197,7 @@ h3 {
 .infobox4 {
   grid-column: 4/5;
   grid-row: 2/3;
-  grid-area: "infobox4";
+  grid-area: infobox4;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   height: 350px;
@@ -1316,7 +1316,7 @@ input:checked + .roundbutton:before {
 .navItemSearch {
   grid-column: 1/2;
   grid-row: 3/4;
-  align-self: left;
+  align-self: flex-start;
   justify-self: left;
 }
 .searchIcon {
