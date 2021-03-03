@@ -1101,13 +1101,30 @@ h4 {
   grid-row: 3/4;
 }
 
+.navItemSearch {
+grid-column: 1/2;
+grid-row: 3/4;
+align-self: left;
+justify-self: left;
+}
+#searchBar {
+padding: 6px;
+border: none;
+width: 57%;
+font-size: 17px;
+display: none;
+margin: -2% 0 0 -60%;
+border-radius: 10px;
+position: absolute;
+}
+
 .kodeboks2 {
   grid-column: 2/3;
   grid-row: 1/2;
   width: 80%;
-  height: 110%;
+  height: auto;
   margin-left: 10%;
-  font-family: "MingLiU_HKSCS";
+  font-family: 'Roboto Mono', monospace;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   margin-bottom: 10%;
 }
@@ -1134,7 +1151,7 @@ h4 {
   grid-row: 1/2;
   padding-top: 4.5%;
   width: 80%;
-  height: 20%;
+  height: 1.5%;
   background-color: #e3bbab;
   margin-left: 10%;
 }
