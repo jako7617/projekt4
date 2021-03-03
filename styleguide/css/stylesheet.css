@@ -1003,6 +1003,7 @@ h4 {
   grid-row: 13/14;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  margin-bottom: 50px;
 }
 
 .btnsGridItem15,
