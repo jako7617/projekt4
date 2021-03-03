@@ -141,6 +141,7 @@
           id="cancelPrices"
           name="Afbudspriser"
           value="Priser"
+          onclick="newPrice()"
         />
       </div>
       <br />
@@ -162,16 +163,18 @@
           Klip dame langt hår<input
             class="dropdown-checkb"
             type="checkbox"
-          /><label> 400kr</label>
+          /><label id="newPrices"> 400kr</label>
         </li>
         <li>
           Klip dame kort hår<input
             class="dropdown-checkb"
             type="checkbox"
-          /><label> 360kr</label>
+          /><label id="newPrices2"> 360kr</label>
         </li>
         <li>
-          Farvning<input class="dropdown-checkb" type="checkbox" /><label>
+          Farvning<input class="dropdown-checkb" type="checkbox" /><label
+            id="newPrices3"
+          >
             900kr</label
           >
         </li>

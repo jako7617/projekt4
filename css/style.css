@@ -1142,7 +1142,7 @@ input:checked + .roundbutton:before {
 .confirmGridItem3,
 .confirmGridItem4 {
   grid-column: 2/3;
-  align-self: end;
+  align-self: center;
   justify-self: center;
 }
 .confirmGridItem3 {
@@ -1265,15 +1265,15 @@ input:checked + .roundbutton:before {
   .checkboxCreate {
     align-self: center;
     justify-self: end;
-    margin-bottom: 10px;
-    width: 45px;
-    height: 45px;
-    outline: none;
-    background-color: #f1f1e2;
+    -webkit-margin-bottom: 10px;
+    -webkit-width: 45px;
+    -webkit-height: 45px;
+    -webkit-outline: none;
+    -webkit-background-color: #f1f1e2;
     -moz-appearance: none;
     -webkit-appearance: none;
     -o-appearance: none;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   }
   .checkboxCreate:checked {
     -webkit-appearance: square-button;
