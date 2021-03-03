@@ -244,6 +244,7 @@ td img {
   top: 200px;
   width: 50%;
   font-family: "Roboto Mono", monospace;
+  padding: 2%;
 }
 
 .pink {
@@ -451,6 +452,7 @@ td img {
   margin-left: 10%;
   font-family: "MingLiU_HKSCS";
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 .logopic {
@@ -559,7 +561,7 @@ h4 {
 .btnsGridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(13, 1fr);
+  grid-template-rows: auto;
   grid-row-gap: 150px;
   grid-column-gap: 2%;
 }
@@ -593,6 +595,7 @@ h4 {
   grid-row: 1/2;
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 .btnCreate {
@@ -637,6 +640,7 @@ h4 {
   grid-row: 2/3;
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
   .btnGuest {
@@ -688,6 +692,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 3/4;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*OK*/
@@ -718,6 +723,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 4/5;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*Gem*/
@@ -748,6 +754,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 5/6;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*Skift kode*/
@@ -778,6 +785,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 6/7;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*Book*/
@@ -808,6 +816,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 7/8;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*Annuller*/
@@ -838,6 +847,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 8/9;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*Meld afbud*/
@@ -868,6 +878,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 9/10;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*Ny bruger*/
@@ -898,6 +909,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 10/11;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*Rediger*/
@@ -928,6 +940,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 11/12;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*Book igen*/
@@ -958,6 +971,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 12/13;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 /*Swipe*/
@@ -988,6 +1002,7 @@ h4 {
   grid-column: 2/3;
   grid-row: 13/14;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
 }
 
 .btnsGridItem15,
