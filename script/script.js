@@ -26,6 +26,14 @@ function openSearch() {
   }
 }
 
+function newPrice() {
+  document.getElementById("newPrices").innerHTML =
+    "<i>400kr</i> - <b>300kr</b>";
+  document.getElementById("newPrices2").innerHTML =
+    "<i>360kr</i> - <b>280kr</b>";
+  document.getElementById("newPrices3").innerHTML =
+    "<i>900kr</i> - <b>810kr</b>";
+}
 //Lauras kode slut//
 
 //dropdown// - //Jakobs kode//
