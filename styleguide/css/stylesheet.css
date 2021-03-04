@@ -113,9 +113,6 @@ h3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas:
-    "farve1 farve2 farve3 farve4"
-    "infobox1 infobox2 infobox3 infobox4";
   margin-top: 2%;
   grid-gap: 0%;
   grid-column-gap: 3%;
@@ -127,7 +124,6 @@ h3 {
 .farve1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  grid-area: farve1;
   background-color: #1f2d46;
   height: auto;
   height: 25%;
@@ -137,7 +133,6 @@ h3 {
 .infobox1 {
   grid-column: 1/2;
   grid-row: 2/3;
-  grid-area: infobox1;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   height: 350px;
@@ -148,7 +143,6 @@ h3 {
 .farve2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  grid-area: farve2;
   background-color: #e3bbab;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -157,7 +151,6 @@ h3 {
 .infobox2 {
   grid-column: 2/3;
   grid-row: 2/3;
-  grid-area: infobox2;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   height: 350px;
@@ -168,7 +161,6 @@ h3 {
 .farve3 {
   grid-column: 3/4;
   grid-row: 1/2;
-  grid-area: farve3;
   background-color: #f1f1e2;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -177,7 +169,6 @@ h3 {
 .infobox3 {
   grid-column: 3/4;
   grid-row: 2/3;
-  grid-area: infobox3;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   height: 350px;
@@ -188,7 +179,6 @@ h3 {
 .farve4 {
   grid-column: 4/5;
   grid-row: 1/2;
-  grid-area: farve4;
   background-color: #ffffff;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -197,7 +187,6 @@ h3 {
 .infobox4 {
   grid-column: 4/5;
   grid-row: 2/3;
-  grid-area: infobox4;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   height: 350px;
@@ -543,7 +532,6 @@ td img {
   margin-top: 30px;
   margin-left: 110px;
   margin-right: 90px;
-
 }
 
 h4 {
@@ -596,6 +584,7 @@ h4 {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 .btnCreate {
@@ -641,6 +630,7 @@ h4 {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
   .btnGuest {
@@ -693,6 +683,7 @@ h4 {
   grid-row: 3/4;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*OK*/
@@ -724,6 +715,7 @@ h4 {
   grid-row: 4/5;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Gem*/
@@ -755,6 +747,7 @@ h4 {
   grid-row: 5/6;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Skift kode*/
@@ -786,6 +779,7 @@ h4 {
   grid-row: 6/7;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Book*/
@@ -817,6 +811,7 @@ h4 {
   grid-row: 7/8;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Annuller*/
@@ -848,6 +843,7 @@ h4 {
   grid-row: 8/9;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Meld afbud*/
@@ -879,6 +875,7 @@ h4 {
   grid-row: 9/10;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Ny bruger*/
@@ -910,6 +907,7 @@ h4 {
   grid-row: 10/11;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Rediger*/
@@ -941,6 +939,7 @@ h4 {
   grid-row: 11/12;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Book igen*/
@@ -972,6 +971,7 @@ h4 {
   grid-row: 12/13;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Swipe*/
@@ -1004,6 +1004,7 @@ h4 {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   margin-bottom: 50px;
+  font-family: "Roboto Mono", monospace;
 }
 
 .btnsGridItem15,
