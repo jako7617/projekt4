@@ -15,6 +15,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* HEADER + NAV */
 header {
   background-color: #1f2d46;
